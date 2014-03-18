@@ -1,0 +1,27 @@
+@import "webfonts";
+@import "mixins";
+
+$h1_px:44;
+$h2_px:32;
+$h3_px:24;
+$h4_px:18;
+$h5_px:15;
+$p_px:24;
+$mouse_px:14;
+
+html {font-size:$baseline_px;}
+body {font:normal 100%/18px; font-family:$primary-font;}
+
+h1, h2, h3, h4, h5 {text-transform:uppercase;font-weight:bold;color:black;}
+h1{@include rem(font-size, $h1_px);@include rem(line-height, ($h1_px*2));letter-spacing:5px;}
+h2{@include rem(font-size, $h2_px);@include rem(line-height, ($h2_px*2));}
+h3{@include rem(font-size, $h3_px);@include rem(line-height, ($h3_px*1.4));}
+h4{@include rem(font-size, $h4_px);@include rem(line-height, ($h4_px*1.4));}
+h5{@include rem(font-size, $h5_px);@include rem(line-height, ($h4_px*1.04));}
+p {@include rem(font-size, $p_px);@include rem(line-height, ($p_px*1.4));}
+.mouse {@include rem(font-size, $mouse_px);@include rem(line-height, ($mouse_px*1));}
+
+a {text-decoration:none;color:blue;&:hover {text-decoration:underline;}}
+a.underline{text-decoration:underline;}
+
+.price{color:orange;}

@@ -1,0 +1,101 @@
+$baseline_px: 18;
+$primary-font:'Conduit';
+
+$black:						#222;
+$white:						#fff;
+$silver:					#dcdcdc;
+
+$blue:						#39c;
+$blue-light:			lighten($blue, 20%);
+$blue-lighter:		lighten($blue, 30%);
+$blue-lightest:		lighten($blue, 40%);
+$blue-corporate:	#005695;
+
+$gray:						lighten($black, 26%);
+$gray-light:			lighten($gray, 24%);
+$gray-lighter:		lighten($gray, 36%);
+$gray-lightest:		lighten($gray, 53%);
+
+$green:						#9c3;
+$green-light:			lighten($green, 20%);
+$green-lighter:		lighten($green, 30%);
+$green-lightest:	lighten($green, 40%);
+$green-explore: 	$green;
+$green-highlight: $green-light;
+
+$orange:					#e48325;
+$orange-light:		lighten($orange, 20%);
+$orange-lighter:	lighten($orange, 30%);
+$orange-lightest:	lighten($orange, 40%);
+
+$red:							#F00;
+$red-highlight:		lighten($red, 45%);
+$red-outlet:			$red;
+$yellow:					$orange-light;
+
+$searchBorder:		#909090;
+$searchBack:			#f6f6f6;
+$brandOrange:						#cc6633;
+$brandOrange-dim:				lighten($brandOrange, 10%);
+$brandOrange-light:			lighten($brandOrange, 20%);
+$brandOrange-lighter:		lighten($brandOrange, 30%);
+$brandOrange-lightest:	lighten($brandOrange, 40%);
+
+
+@mixin center-block{display:block;margin-left:auto;margin-right:auto;}
+$mockWidth:1000px;
+
+/* Device breakpoints */
+$break-small: 480px;
+$break-large: 1024px;
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}
+
+/* MDF logos spacing */
+@mixin navSize{width:($navWidth/$navOptions);}
+@mixin headerWidth{max-width:1024px;}
+$mdfLogoCount:5;		/* This is the number of MDF Logos we are showing */
+$navWidth:650px; 	/* This is the width of the area between the left border and the userArea */
+
+@mixin evenlySpace{text-align: justify;-ms-text-justify: distribute-all-lines;text-justify: distribute-all-lines;}
+
+@mixin rem($property, $px_values) {
+	$baseline_rem: ($baseline_px / 1rem);
+	
+	#{$property}: $px_values + px;
+	
+	@if type-of($px_values) == 'number' {
+		#{$property}: $px_values / $baseline_rem;
+	}
+ 
+	// If there is more than one value, create a list and perform equations on each value
+	@else {
+ 
+		// Create an empty list that we can dump values into
+		$rem_values: ();
+ 
+		@each $value in $px_values {
+ 
+			// If the value is zero, return 0
+			@if $value == 0 { 
+				$rem_values: append($rem_values, $value); 
+			}
+ 
+			// If the value is not zero, convert it from px to rem
+			@else {
+				$rem_values: append($rem_values, ($value / $baseline_rem) );
+			}
+ 
+		}
+		#{$property}: $rem_values;
+	}
+}
