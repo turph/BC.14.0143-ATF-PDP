@@ -1,0 +1,25 @@
+.pt_pdpNav{
+	margin:0 0 30px 0;width:100%;
+	border-bottom:1px solid $gray-lighter;
+	.pt_pdpNavLogo{
+		margin:0 0 7px 0;float:left;height:50px;overflow:hidden;
+	}
+	.pt_pdpNavOptions{
+		margin:26px 0 0 0;float:right;font-size:17px;
+		a{
+		margin:0 7px;padding:0 10px 12px 10px;display:inline;color:$gray;
+		&:hover{color:$black;text-decoration:none;border-bottom:3px solid $black;}
+		&:last-child{margin-right:0;}
+		}
+	}
+	a.pt_buyNow{color:$orange;border-bottom:3px solid $orange;}
+}
+
+
+/* iPhone loyout */
+@include respond-to(handhelds){
+	.pt_pdpNavOptions{
+		margin:26px 0 0 0;float:right;font-size:16px;
+		a{margin:0 4px;padding:0 6px 12px 6px;}
+	}
+}

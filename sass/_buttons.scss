@@ -1,103 +1,19 @@
-@import "_mixins";
-
 .btn{margin:15px;}
 .ui-button {
-	display:inline-block;
-	background:$blue;
-	color:$white;
-	font-size:24px;
+	padding:8px 20px;
+	color:$white;font-size:24px;font-weight:bold;
 	line-height:34px;
-	padding:0;
-	font-family:$primary-font;
-	text-transform: capitalize;
+	text-transform:capitalize;
 	text-align:center;
-	
-	&:hover {text-decoration:none;color:$white;}	
+	&:hover{text-decoration:none;color:$white;}
+	a{white-space:nowrap;}
 }
 .sm-btn{
 	font-size:18px;
-	line-height:9px;
-	padding: 6px 0 0 0;
+	line-height:18px;
+	padding:8px 10px 6px 10px;
 }
 
-.altOrder, .wish, .added{background:$blue-light;}
 .buy{background:$orange;}
-
-
-/*
-.ui-button.ui-primary {
-  background-color: $primary-color;
-}
-
-.ui-button.ui-small {
-  @include rem(line-height,22);
-  @include rem(padding, 5 10 3);
-}
-
-.ui-button.ui-large {
-  @include rem(line-height,46);
-  @include rem(padding, 5 30 3);
-}
-
-.ui-button.ui-disabled {
-  	background-color: #ccc;
-  	border-bottom: none;
-}
-
-.ui-button-img {
-	@extend .ui-button;
-	@include rem(padding, 9);
-}
-
-.ui-button-combo-left {
-	@extend .ui-button;	
-	@include rem(padding, 5 20 3 10);
-	
-	img {
-		@include rem(margin, 3 5 -3 0);
-	}
-}
-
-.ui-button-combo-right {
-	@extend .ui-button;	
-	@include rem(padding, 5 10 3 20);
-	
-	img {
-		@include rem(margin, 3 0 -3 5);
-	}
-}
-
-
-.ui-combo {
-
-  &:before {
-    background: url(../img/icon-16.png) no-repeat;
-  }
-
-}
-
-.ui-button.ui-combo-right {
- 	@extend .ui-combo;
-  	&:before {
-
-  	}
-}
-
-.ui-button.ui-combo-left {
-  @extend .ui-combo;
-  &:before {
-
-  }
-
-}
-
-.ui-button.ui-checkout {
-	@extend .ui-button.ui-combo-right;
-  	background-color: $primary-color;
-  
-  	&:before {
-    	background-position: 0 -48px;
-  	}
-}
-
-*/
+.wish{background:$blue;}
+.altOrder, .added{background:$blue-light;}

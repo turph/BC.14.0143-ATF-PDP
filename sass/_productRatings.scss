@@ -1,0 +1,21 @@
+.pRates{
+	margin:10px 0;padding:0;
+	a:hover{text-decoration:none;}
+}
+.pStars,.pRate1,.pRate2,.pRate3,.pRate4,.pRate5{display:block;height:13px;background-image:url('http://backcountry.com/images/bcs/rating-default.png');}
+.pRate1,.pRate2,.pRate3,.pRate4,.pRate5{margin:-13px 0 0 0;}
+.pStars{margin:0 10px 0 0;width:70px;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";filter: alpha(opacity=25);opacity:0.25}
+.pStars{background:transparent\9;} /* IE8 and below hides non-rated stars */
+.pRate0{width:0px;}
+.pRate1{width:14px;}
+.pRate2{width:28px;}
+.pRate3{width:42px;}
+.pRate4{width:56px;}
+.pRate5{width:70px;}
+.pStarCnt{
+	margin-left:74px;white-space:nowrap;float:left;line-height:15px;font-size:14px;color:$gray;
+	a{
+		color:$blue;
+		&:hover{color:$black;text-decoration:underline;}
+	}
+}

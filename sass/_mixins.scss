@@ -1,3 +1,4 @@
+
 $baseline_px: 18;
 $primary-font:'Conduit';
 
@@ -15,6 +16,7 @@ $gray:						lighten($black, 26%);
 $gray-light:			lighten($gray, 24%);
 $gray-lighter:		lighten($gray, 36%);
 $gray-lightest:		lighten($gray, 53%);
+$gray-dim:				lighten($gray, 58%);
 
 $green:						#9c3;
 $green-light:			lighten($green, 20%);
@@ -60,13 +62,6 @@ $break-large: 1024px;
   }
 }
 
-/* MDF logos spacing */
-@mixin navSize{width:($navWidth/$navOptions);}
-@mixin headerWidth{max-width:1024px;}
-$mdfLogoCount:5;		/* This is the number of MDF Logos we are showing */
-$navWidth:650px; 	/* This is the width of the area between the left border and the userArea */
-
-@mixin evenlySpace{text-align: justify;-ms-text-justify: distribute-all-lines;text-justify: distribute-all-lines;}
 
 @mixin rem($property, $px_values) {
 	$baseline_rem: ($baseline_px / 1rem);

@@ -1,78 +1,589 @@
-/*
-Syntax error: File to import not found or unreadable: productRatings.
-              Load paths:
-                /working files/mockups/2014/BC.14.0143 ATF-PDP/sass
-                /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets
-                /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets
-                Compass::SpriteImporter
-        on line 5 of /working files/mockups/2014/BC.14.0143 ATF-PDP/sass/screen.scss
+/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-1: /working files/mockups/2014/BC.14.0143 ATF-PDP/sass/screen.scss
+/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
 
-Backtrace:
-/working files/mockups/2014/BC.14.0143 ATF-PDP/sass/screen.scss:5
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/import_node.rb:64:in `import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/import_node.rb:25:in `imported_file'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:126:in `visit_root'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `to_proc'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:30
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44
-/usr/bin/compass:19:in `load'
-/usr/bin/compass:19
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: productRatings.\A               Load paths:\A                 /working files/mockups/2014/BC.14.0143 ATF-PDP/sass\A                 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 5 of /working files/mockups/2014/BC.14.0143 ATF-PDP/sass/screen.scss\A \A 1: /working files/mockups/2014/BC.14.0143 ATF-PDP/sass/screen.scss"; }
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'Conduit';
+  src: url("http://backcountryturph.s3.amazonaws.com/mockups/2013/base/webfonts/Conduit-ExtraBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conduit';
+  src: url("http://backcountryturph.s3.amazonaws.com/mockups/2013/base/webfonts/Conduit-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* extras - unused */
+@font-face {
+  font-family: 'Conduit';
+  src: url("http://backcountryturph.s3.amazonaws.com/mockups/2013/base/webfonts/Conduit-Bold.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conduit';
+  src: url("http://backcountryturph.s3.amazonaws.com/mockups/2013/base/webfonts/Conduit-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conduit';
+  src: url("http://backcountryturph.s3.amazonaws.com/mockups/2013/base/webfonts/Conduit-LightItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Device breakpoints */
+/* This is some font smoothing since our extra bold looks horrid small */
+/* line 5, ../sass/_typography.scss */
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+/* line 16, ../sass/_typography.scss */
+html {
+  font-size: 18;
+}
+
+/* line 17, ../sass/_typography.scss */
+body {
+  font: normal 100%/18px;
+  font-family: "Conduit";
+}
+
+/* line 19, ../sass/_typography.scss */
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+/* line 20, ../sass/_typography.scss */
+h1 {
+  font-size: 44px;
+  font-size: 2.44444rem;
+  line-height: 88px;
+  line-height: 4.88889rem;
+  letter-spacing: 5px;
+}
+
+/* line 21, ../sass/_typography.scss */
+h2 {
+  font-size: 32px;
+  font-size: 1.77778rem;
+  line-height: 64px;
+  line-height: 3.55556rem;
+}
+
+/* line 22, ../sass/_typography.scss */
+h3 {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 33.6px;
+  line-height: 1.86667rem;
+}
+
+/* line 23, ../sass/_typography.scss */
+h4 {
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 25.2px;
+  line-height: 1.4rem;
+}
+
+/* line 24, ../sass/_typography.scss */
+h5 {
+  font-size: 15px;
+  font-size: 0.83333rem;
+  line-height: 18.72px;
+  line-height: 1.04rem;
+}
+
+/* line 25, ../sass/_typography.scss */
+p {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 33.6px;
+  line-height: 1.86667rem;
+}
+
+/* line 26, ../sass/_typography.scss */
+.mouse {
+  font-size: 14px;
+  font-size: 0.77778rem;
+  line-height: 14px;
+  line-height: 0.77778rem;
+}
+
+/* line 28, ../sass/_typography.scss */
+a {
+  text-decoration: none;
+  color: blue;
+}
+/* line 28, ../sass/_typography.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 29, ../sass/_typography.scss */
+a.underline {
+  text-decoration: underline;
+}
+
+/* line 31, ../sass/_typography.scss */
+.price {
+  color: orange;
+}
+
+/* Device breakpoints */
+/* line 1, ../sass/_buttons.scss */
+.btn {
+  margin: 15px;
+}
+
+/* line 2, ../sass/_buttons.scss */
+.ui-button {
+  padding: 8px 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  text-transform: capitalize;
+  text-align: center;
+}
+/* line 8, ../sass/_buttons.scss */
+.ui-button:hover {
+  text-decoration: none;
+  color: white;
+}
+/* line 9, ../sass/_buttons.scss */
+.ui-button a {
+  white-space: nowrap;
+}
+
+/* line 11, ../sass/_buttons.scss */
+.sm-btn {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 8px 10px 6px 10px;
+}
+
+/* line 17, ../sass/_buttons.scss */
+.buy {
+  background: #e48325;
+}
+
+/* line 18, ../sass/_buttons.scss */
+.wish {
+  background: #3399cc;
+}
+
+/* line 19, ../sass/_buttons.scss */
+.altOrder, .added {
+  background: #85c2e0;
+}
+
+/* line 1, ../sass/_productRatings.scss */
+.pRates {
+  margin: 10px 0;
+  padding: 0;
+}
+/* line 3, ../sass/_productRatings.scss */
+.pRates a:hover {
+  text-decoration: none;
+}
+
+/* line 5, ../sass/_productRatings.scss */
+.pStars, .pRate1, .pRate2, .pRate3, .pRate4, .pRate5 {
+  display: block;
+  height: 13px;
+  background-image: url("http://backcountry.com/images/bcs/rating-default.png");
+}
+
+/* line 6, ../sass/_productRatings.scss */
+.pRate1, .pRate2, .pRate3, .pRate4, .pRate5 {
+  margin: -13px 0 0 0;
+}
+
+/* line 7, ../sass/_productRatings.scss */
+.pStars {
+  margin: 0 10px 0 0;
+  width: 70px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+  filter: alpha(opacity=25);
+  opacity: 0.25;
+}
+
+/* line 8, ../sass/_productRatings.scss */
+.pStars {
+  background: transparent\9;
+}
+
+/* IE8 and below hides non-rated stars */
+/* line 9, ../sass/_productRatings.scss */
+.pRate0 {
+  width: 0px;
+}
+
+/* line 10, ../sass/_productRatings.scss */
+.pRate1 {
+  width: 14px;
+}
+
+/* line 11, ../sass/_productRatings.scss */
+.pRate2 {
+  width: 28px;
+}
+
+/* line 12, ../sass/_productRatings.scss */
+.pRate3 {
+  width: 42px;
+}
+
+/* line 13, ../sass/_productRatings.scss */
+.pRate4 {
+  width: 56px;
+}
+
+/* line 14, ../sass/_productRatings.scss */
+.pRate5 {
+  width: 70px;
+}
+
+/* line 15, ../sass/_productRatings.scss */
+.pStarCnt {
+  margin-left: 74px;
+  white-space: nowrap;
+  float: left;
+  line-height: 15px;
+  font-size: 14px;
+  color: #646464;
+}
+/* line 17, ../sass/_productRatings.scss */
+.pStarCnt a {
+  color: #3399cc;
+}
+/* line 19, ../sass/_productRatings.scss */
+.pStarCnt a:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+
+/* line 1, ../sass/_forms.scss */
+textarea:focus, input:focus, select:focus {
+  outline: 0;
+}
+
+/* line 2, ../sass/_forms.scss */
+label {
+  margin: 10px 0 0 0;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+}
+
+/* line 5, ../sass/_forms.scss */
+.ui-selectmenu-popup {
+  margin: 0 0 10px 0;
+  padding: 8px 22px 8px 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ebebeb;
+  border: 1px solid #a2a2a2;
+  color: #646464;
+  position: relative;
+}
+/* line 15, ../sass/_forms.scss */
+.ui-selectmenu-popup:before {
+  height: 12px;
+  width: 12px;
+  top: 11px;
+  right: 10px;
+  content: " ";
+  background: url("http://www.backcountry.com/images/bcs/icon-12-s66c4b85537.png") no-repeat 0 -12px;
+  position: absolute;
+}
+/* line 21, ../sass/_forms.scss */
+.ui-selectmenu-popup:after {
+  background: #a2a2a2;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 31px;
+  top: 0;
+  width: 1px;
+}
+/* line 30, ../sass/_forms.scss */
+.ui-selectmenu-popup:hover {
+  text-decoration: none;
+}
+/* line 31, ../sass/_forms.scss */
+.ui-selectmenu-popup:focus {
+  outline: 0;
+}
+
+/* line 33, ../sass/_forms.scss */
+.ui-selectmenu {
+  height: auto;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+/* line 1, ../sass/_pdpNavBar.scss */
+.pt_pdpNav {
+  margin: 0 0 30px 0;
+  width: 100%;
+  border-bottom: 1px solid silver;
+}
+/* line 4, ../sass/_pdpNavBar.scss */
+.pt_pdpNav .pt_pdpNavLogo {
+  margin: 0 0 7px 0;
+  float: left;
+  height: 50px;
+  overflow: hidden;
+}
+/* line 7, ../sass/_pdpNavBar.scss */
+.pt_pdpNav .pt_pdpNavOptions {
+  margin: 26px 0 0 0;
+  float: right;
+  font-size: 17px;
+}
+/* line 9, ../sass/_pdpNavBar.scss */
+.pt_pdpNav .pt_pdpNavOptions a {
+  margin: 0 7px;
+  padding: 0 10px 12px 10px;
+  display: inline;
+  color: #646464;
+}
+/* line 11, ../sass/_pdpNavBar.scss */
+.pt_pdpNav .pt_pdpNavOptions a:hover {
+  color: #222222;
+  text-decoration: none;
+  border-bottom: 3px solid #222222;
+}
+/* line 12, ../sass/_pdpNavBar.scss */
+.pt_pdpNav .pt_pdpNavOptions a:last-child {
+  margin-right: 0;
+}
+/* line 15, ../sass/_pdpNavBar.scss */
+.pt_pdpNav a.pt_buyNow {
+  color: #e48325;
+  border-bottom: 3px solid #e48325;
+}
+
+/* iPhone loyout */
+@media only screen and (max-width: 480px) {
+  /* line 21, ../sass/_pdpNavBar.scss */
+  .pt_pdpNavOptions {
+    margin: 26px 0 0 0;
+    float: right;
+    font-size: 16px;
+  }
+  /* line 23, ../sass/_pdpNavBar.scss */
+  .pt_pdpNavOptions a {
+    margin: 0 4px;
+    padding: 0 6px 12px 6px;
+  }
+}
+/* line 1, ../sass/_atfProduct.scss */
+h1.pt_productTitle {
+  width: 100%;
+  margin: 0 15px 0 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+/* line 4, ../sass/_atfProduct.scss */
+h1.pt_productTitle .pt_brandName {
+  margin: 0;
+  padding: 0 6px 0 0;
+  width: auto;
+  font-weight: bold;
+}
+
+/* line 6, ../sass/_atfProduct.scss */
+.pRates {
+  margin: 0 0 10px 0;
+}
+
+/* line 7, ../sass/_atfProduct.scss */
+.pImg {
+  text-align: center;
+}
+/* line 9, ../sass/_atfProduct.scss */
+.pImg img {
+  height: 360px;
+}
+
+/* line 1, ../sass/_atfWrappers.scss */
+.pt_atfWrapper {
+  background-color: yellow;
+}
+
+/* line 3, ../sass/_atfWrappers.scss */
+.pt_70-30 #atf_l {
+  width: 70%;
+  float: left;
+}
+/* line 4, ../sass/_atfWrappers.scss */
+.pt_70-30 #atf_buyBox {
+  margin-left: 70%;
+}
+
+/* line 7, ../sass/_atfWrappers.scss */
+.pt_50-50 #atf_l {
+  width: 50%;
+  float: left;
+}
+/* line 8, ../sass/_atfWrappers.scss */
+.pt_50-50 #atf_buyBox {
+  margin-left: 50%;
+}
+
+/* line 2, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab {
+  padding: 18px 10px 0 32px;
+  height: 30px;
+  border-top: 1px solid #ebebeb;
+  background: url("../img/icon16_radioOff.png") no-repeat 10 50%;
+}
+/* line 6, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab:last-child {
+  border-bottom: 1px solid #ebebeb;
+}
+/* line 7, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab a {
+  color: #222222;
+  display: block;
+  font-size: 16px;
+}
+/* line 9, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab a .bb_count {
+  font-size: 14px;
+  color: #646464;
+}
+/* line 10, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab a:hover {
+  text-decoration: none;
+}
+/* line 12, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab .bb_sumPrice {
+  float: right;
+  margin: -16px 0 0 0;
+}
+/* line 14, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab .bb_sumPrice .bb_sumLabel {
+  font-size: 16px;
+  color: #646464;
+}
+/* line 16, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tab:hover {
+  background-color: #f8f8f8;
+}
+/* line 18, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tabOn {
+  background: url("../img/icon16_radioOn.png") no-repeat 10 50%;
+}
+/* line 20, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_tabOn:hover {
+  background-color: white;
+}
+/* line 22, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_varPanel {
+  margin: 0;
+  padding: 0 10px 15px 32px;
+}
+/* line 24, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_varPanel .bb_varPrice {
+  text-align: right;
+  color: red;
+  font-size: 24px;
+}
+/* line 25, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_varPanel .bb_buttonRow {
+  margin: 20px 0 0 0;
+}
+/* line 26, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_varPanel .ui-button {
+  margin: 0 0 15px 0;
+  display: list-item;
+}
+/* line 27, ../sass/_tabbedBuyBox.scss */
+#atf_buyBox .bb_varPanel .bb_fromPrice {
+  font-size: 18px;
+  color: #646464;
+}

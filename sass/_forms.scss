@@ -1,0 +1,39 @@
+textarea:focus, input:focus, select:focus{outline:0;}
+label{margin:10px 0 0 0;font-weight:bold;font-size:16px;display:block;}
+select{}
+
+.ui-selectmenu-popup{
+	margin:0 0 10px 0;padding:8px 22px 8px 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	background-color:$gray-lightest;
+	border:1px solid $gray-light;
+	color:$gray;
+	position:relative;
+	&:before{
+		height:12px;width:12px;top:11px;right:10px;
+		content:" ";
+		background:url('http://www.backcountry.com/images/bcs/icon-12-s66c4b85537.png') no-repeat 0 -12px;
+		position:absolute;
+	}
+	&:after{
+		background:$gray-light;
+		content:"";
+		height:100%;
+		position:absolute;
+		right:31px;
+		top:0;
+		width:1px;
+	}
+	&:hover{text-decoration:none;}
+	&:focus{outline:0;}
+}
+.ui-selectmenu{
+	height:auto;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:middle;
+	text-decoration:none;
+}

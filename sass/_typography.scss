@@ -1,6 +1,10 @@
 @import "webfonts";
 @import "mixins";
 
+/* This is some font smoothing since our extra bold looks horrid small */
+html, html a{-webkit-font-smoothing: antialiased;text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+
+
 $h1_px:44;
 $h2_px:32;
 $h3_px:24;

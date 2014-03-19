@@ -3,10 +3,139 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>v1- pdpRedo</title>
 	<link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 </head>
 <body>
-starting
-
+<script type="text/javascript">
+	/* All options */
+	$(document).ready (function () {
+		$('#bb_allTab').click (function () {
+			$('#bb_allBox, #bb_sumPriceSale, #bb_sumPriceOutlet').show ();
+			$('#bb_saleBox, #bb_outletBox, #bb_sumPriceAll').hide ();
+			$('#bb_allTab').addClass('bb_tabOn');
+			$('#bb_saleTab, #bb_outletTab').removeClass('bb_tabOn');
+			return false;
+		});
+	})
+	/* Only sales */
+	$(document).ready (function () {
+		$('#bb_saleTab').click (function () {
+			$('#bb_saleBox, #bb_sumPriceAll, #bb_sumPriceOutlet').show ();
+			$('#bb_allBox, #bb_outletBox, #bb_sumPriceSale').hide ();
+			$('#bb_saleTab').addClass('bb_tabOn');
+			$('#bb_allTab, #bb_outletTab').removeClass('bb_tabOn');
+			return false;
+		});
+	})
+	/* Only outlet */
+	$(document).ready (function () {
+		$('#bb_outletTab').click (function () {
+			$('#bb_outletBox, #bb_sumPriceAll, #bb_sumPriceSale').show ();
+			$('#bb_allBox, #bb_saleBox, #bb_sumPriceOutlet').hide ();
+			$('#bb_outletTab').addClass('bb_tabOn');
+			$('#bb_allTab, #bb_saleTab').removeClass('bb_tabOn');
+			return false;
+		});
+	})
+</script>
+<div class="pt_pdpNav">
+	<div class="pt_pdpNavLogo"><img src="http://www.backcountry.com/images/brand/thumb/NorthFacelogo2010.jpg"></div>
+	<div class="pt_pdpNavOptions">
+		<a href="">What goes with this?</a>
+		<a href="">All jackets</a>
+		<a href="">Similar products</a>
+		<a class="pt_buyNow" href="">Buy Now</a>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<div class="pt_70-30">
+	<div id="atf_l">	<!-- Product title & main image -->
+		<h1 class="pt_productTitle"><span class="pt_brandName">The North Face</span>The North Face Denali Fleece Jacket - Women's</h1>
+		<div class="pRates"><span class="pStars"></span><span class="pRate5"><span class="pStarCnt">(<a href="">17</a>)</span></span></div>
+		<div class="pImg"><img src="http://www.backcountry.com/images/items/large/TNF/TNF5207/REMABLHEBL.jpg"></div>
+	</div>
+	<div id="atf_buyBox">	<!-- buyBox -->
+		<div id="bb_allTab" class="bb_tab bb_tabOn">
+			<a href="">All options <span class="bb_count">(234)</span></a>
+			<div id="bb_sumPriceAll" class="bb_sumPrice" style="display:none;">$123.45 - $6,789.00</div>
+		</div>
+		<div id="bb_allBox" class="bb_varPanel">
+			<div class="bb_varPrice">$123.45 - $6,789.00</div>
+			<div class="bb_varSelect">
+				<label for="sizeAll">Size:</label>	<!-- Size dropdown -->
+				<select class="filter-selector" id="sizeAll" aria-disabled="false" style="display: none;">
+					<option value="most-popular">most popular</option>
+					<option value="people-follow">people I follow</option>
+				</select>
+				<span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-popup ui-state-active" id="sizeAll" role="button" href="#nogo" tabindex="0" aria-haspopup="true" aria-owns="sizeAll" aria-disabled="false" style="width:200px; visibility:visible;"><span class="ui-selectmenu-status">Select a size</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-2-n-s"></span></a></span>
+				<label for="colorAll">Color:</label>	<!-- Color dropdown -->
+				<select class="filter-selector" id="colorAll" aria-disabled="false" style="display: none;">
+					<option value="most-popular">most popular</option>
+					<option value="people-follow">people I follow</option>
+				</select>
+				<span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-popup ui-state-active" id="colorAll" role="button" href="#nogo" tabindex="0" aria-haspopup="true" aria-owns="colorAll" aria-disabled="false" style="width:200px; visibility:visible;"><span class="ui-selectmenu-status">Select a color</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-2-n-s"></span></a></span>
+			</div>
+			<div class="bb_buttonRow">
+				<a class="ui-button buy" href="">Add to cart</a>
+				<a class="ui-button wish sm-btn" href="">Add to wish list</a>
+			</div>
+			
+		</div>
+		<div id="bb_saleTab" class="bb_tab">
+			<a href="">Sale <span class="bb_count">(34)</span></a>
+			<div id="bb_sumPriceSale" class="bb_sumPrice"><span class="bb_sumLabel">From:</span> $234.56</div>
+		</div>
+		<div id="bb_saleBox" class="bb_varPanel" style="display:none;">
+			<div class="bb_varPrice"><span class="bb_fromPrice">From:</span> $234.50</div>
+			<div class="bb_varSelect">
+				<label for="sizeAll">Limited sizes:</label>	<!-- Size dropdown -->
+				<select class="filter-selector" id="sizeAll" aria-disabled="false" style="display: none;">
+					<option value="most-popular">most popular</option>
+					<option value="people-follow">people I follow</option>
+				</select>
+				<span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-popup ui-state-active" id="sizeAll" role="button" href="#nogo" tabindex="0" aria-haspopup="true" aria-owns="sizeAll" aria-disabled="false" style="width:200px; visibility:visible;"><span class="ui-selectmenu-status">Select a size</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-2-n-s"></span></a></span>
+				<label for="colorAll">Limited colors:</label>	<!-- Color dropdown -->
+				<select class="filter-selector" id="colorAll" aria-disabled="false" style="display: none;">
+					<option value="most-popular">most popular</option>
+					<option value="people-follow">people I follow</option>
+				</select>
+				<span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-popup ui-state-active" id="colorAll" role="button" href="#nogo" tabindex="0" aria-haspopup="true" aria-owns="colorAll" aria-disabled="false" style="width:200px; visibility:visible;"><span class="ui-selectmenu-status">Select a color</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-2-n-s"></span></a></span>
+			</div>
+			<div class="bb_buttonRow">
+				<a class="ui-button buy" href="">Add to cart</a>
+				<a class="ui-button wish sm-btn" href="">Add to wish list</a>
+			</div>
+			
+		</div>
+		<div id="bb_outletTab" class="bb_tab">
+			<a href="">Outlet <span class="bb_count">(12)</span></a>
+			<div id="bb_sumPriceOutlet" class="bb_sumPrice"><span class="bb_sumLabel">From:</span> $123.45</div>
+		</div>
+		<div id="bb_outletBox" class="bb_varPanel" style="display:none;">
+			<div class="bb_varPrice"><span class="bb_fromPrice">From:</span> $134.50</div>
+			<div class="bb_varSelect">
+				<label for="sizeAll">Limited sizes:</label>	<!-- Size dropdown -->
+				<select class="filter-selector" id="sizeAll" aria-disabled="false" style="display: none;">
+					<option value="most-popular">most popular</option>
+					<option value="people-follow">people I follow</option>
+				</select>
+				<span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-popup ui-state-active" id="sizeAll" role="button" href="#nogo" tabindex="0" aria-haspopup="true" aria-owns="sizeAll" aria-disabled="false" style="width:200px; visibility:visible;"><span class="ui-selectmenu-status">Select a size</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-2-n-s"></span></a></span>
+				<label for="colorAll">Limited colors:</label>	<!-- Color dropdown -->
+				<select class="filter-selector" id="colorAll" aria-disabled="false" style="display: none;">
+					<option value="most-popular">most popular</option>
+					<option value="people-follow">people I follow</option>
+				</select>
+				<span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-popup ui-state-active" id="colorAll" role="button" href="#nogo" tabindex="0" aria-haspopup="true" aria-owns="colorAll" aria-disabled="false" style="width:200px; visibility:visible;"><span class="ui-selectmenu-status">Select a color</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-2-n-s"></span></a></span>
+			</div>
+			<div class="bb_buttonRow">
+				<a class="ui-button buy" href="">Add to cart</a>
+				<a class="ui-button wish sm-btn" href="">Add to wish list</a>
+			</div>
+			
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
 
 </body>
 </html>

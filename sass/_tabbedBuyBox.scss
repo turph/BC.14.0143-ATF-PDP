@@ -1,0 +1,29 @@
+#atf_buyBox{
+	.bb_tab{
+		padding:18px 10px 0 32px;height:30px;
+		border-top:1px solid $gray-lightest;
+		background:url('../img/icon16_radioOff.png') no-repeat 10 50%;
+		&:last-child{border-bottom:1px solid $gray-lightest;}
+		a{
+			color:$black;display:block;font-size:16px;
+			.bb_count{font-size:14px;color:$gray;}
+			&:hover{text-decoration:none;}
+		}
+		.bb_sumPrice{
+			float:right;margin:-16px 0 0 0;
+			.bb_sumLabel{font-size:16px;color:$gray;}
+		}
+		&:hover{background-color:$gray-dim;}
+	}
+	.bb_tabOn{
+		background:url('../img/icon16_radioOn.png') no-repeat 10 50%;
+		&:hover{background-color:$white;}
+	}
+	.bb_varPanel{
+		margin:0;padding:0 10px 15px 32px;
+		.bb_varPrice{text-align:right;color:$red;font-size:24px;}
+		.bb_buttonRow{margin:20px 0 0 0;}
+		.ui-button{margin:0 0 15px 0;display:list-item;}
+		.bb_fromPrice{font-size:18px;color:$gray;}
+	}
+}
