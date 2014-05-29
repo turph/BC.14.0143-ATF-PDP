@@ -1,17 +1,59 @@
 <html lang="en">
 <head>
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>v1- pdpRedo</title>
 	<link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bcs/main" src="http://www.backcountry.com/b6b9dd99bb4783be59c4fdd01e6ead57ec76ca83/javascript/pkg/bcs/main.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/widgets/bc.controller" src="http://www.backcountry.com/b6b9dd99bb4783be59c4fdd01e6ead57ec76ca83/javascript/pkg/common/widgets/bc.controller.js"></script>
 </head>
 <body>
 <script type="text/javascript">
+/* Navigation options */
+$(document).ready (function () {
+	$('#whatNav').click (function () {
+		$('#what').show ();
+		$('#buy, #sims, #category').hide ();
+		$('#whatNav').addClass('pt_navHere');
+		$('#simsNav, #categoryNav').removeClass('pt_navHere');
+		return false;
+	});
+})
+$(document).ready (function () {
+	$('#categoryNav').click (function () {
+		$('#category').show ();
+		$('#buy, #sims, #what').hide ();
+		$('#categoryNav').addClass('pt_navHere');
+		$('#simsNav, #whatNav').removeClass('pt_navHere');
+		return false;
+	});
+})
+$(document).ready (function () {
+	$('#simsNav').click (function () {
+		$('#sims').show ();
+		$('#buy, #category, #what').hide ();
+		$('#simsNav').addClass('pt_navHere');
+		$('#categoryNav, #whatNav').removeClass('pt_navHere');
+		return false;
+	});
+})
+$(document).ready (function () {
+	$('#buyNav').click (function () {
+		$('#buy').show ();
+		$('#sims, #category, #what').hide ();
+		$('#simsNav, #categoryNav, #whatNav').removeClass('pt_navHere');
+		return false;
+	});
+})
+
 	/* All options */
 	$(document).ready (function () {
 		$('#bb_allTab').click (function () {
-			$('#bb_allBox, #bb_sumPriceSale, #bb_sumPriceOutlet').show ();
-			$('#bb_saleBox, #bb_outletBox, #bb_sumPriceAll').hide ();
+			$('#bb_sumPriceSale, #bb_sumPriceOutlet').show ();
+			$('#bb_allBox').slideDown ();
+			$('#bb_sumPriceAll').hide ();
+			$('#bb_saleBox, #bb_outletBox').slideUp ();
 			$('#bb_allTab').addClass('bb_tabOn');
 			$('#bb_saleTab, #bb_outletTab').removeClass('bb_tabOn');
 			return false;
@@ -20,8 +62,10 @@
 	/* Only sales */
 	$(document).ready (function () {
 		$('#bb_saleTab').click (function () {
-			$('#bb_saleBox, #bb_sumPriceAll, #bb_sumPriceOutlet').show ();
-			$('#bb_allBox, #bb_outletBox, #bb_sumPriceSale').hide ();
+			$('#bb_sumPriceAll, #bb_sumPriceOutlet').show ();
+			$('#bb_saleBox').slideDown ();
+			$('#bb_outletBox, #bb_sumPriceSale').hide ();
+			$('#bb_allBox, #bb_outletBox').slideUp ();
 			$('#bb_saleTab').addClass('bb_tabOn');
 			$('#bb_allTab, #bb_outletTab').removeClass('bb_tabOn');
 			return false;
@@ -30,31 +74,44 @@
 	/* Only outlet */
 	$(document).ready (function () {
 		$('#bb_outletTab').click (function () {
-			$('#bb_outletBox, #bb_sumPriceAll, #bb_sumPriceSale').show ();
-			$('#bb_allBox, #bb_saleBox, #bb_sumPriceOutlet').hide ();
+			$('#bb_sumPriceAll, #bb_sumPriceSale').show ();
+			$('#bb_outletBox').slideDown ();
+			$('#bb_sumPriceOutlet').hide ();
+			$('#bb_allBox, #bb_saleBox').slideUp ();
 			$('#bb_outletTab').addClass('bb_tabOn');
 			$('#bb_allTab, #bb_saleTab').removeClass('bb_tabOn');
 			return false;
 		});
 	})
 </script>
+<div class="pdpWrapper">
+<div class="header"><img src="img/fakeHeader.png" width="1172" height="170" alt="FakeHeader"></div>
 <div class="pt_pdpNav">
 	<div class="pt_pdpNavLogo"><img src="http://www.backcountry.com/images/brand/thumb/NorthFacelogo2010.jpg"></div>
 	<div class="pt_pdpNavOptions">
-		<a href="">What goes with this?</a>
-		<a href="">All jackets</a>
-		<a href="">Similar products</a>
-		<a class="pt_buyNow" href="">Buy Now</a>
+		<a id="whatNav" href="">What goes with this?</a>
+		<a id="categoryNav" href="">All jackets</a>
+		<a id="simsNav" href="">Similar products</a>
+		<a id="buyNav" class="pt_buyNow" href="">Buy Now</a>
 	</div>
 	<div style="clear:both;"></div>
 </div>
-<div class="pt_70-30">
+<div id="buy" class="pt_70-30">	<!-- Detail Page -->
 	<div id="atf_l">	<!-- Product title & main image -->
 		<h1 class="pt_productTitle"><span class="pt_brandName">The North Face</span>The North Face Denali Fleece Jacket - Women's</h1>
 		<div class="pRates"><span class="pStars"></span><span class="pRate5"><span class="pStarCnt">(<a href="">17</a>)</span></span></div>
 		<div class="pImg"><img src="http://www.backcountry.com/images/items/large/TNF/TNF5207/REMABLHEBL.jpg"></div>
+		<div class="pColorSwatch">
+			<div class="colorSwatch Lavender"><a href="">&nbsp;</a></div>
+			<div class="colorSwatch CadetBlue"><a href="">&nbsp;</a></div>
+			<div class="colorSwatch Chartreuse activeSwatch"><a href="">&nbsp;</a></div>
+			<div class="colorSwatch DarkSalmon"><a href="">&nbsp;</a></div>
+			<div class="colorSwatch White"><a href="">&nbsp;</a></div>
+		</div>
+		<div class="pThumbs"><img src="img/thumbnails.png" width="636" height="100" alt="Thumbnails"></div>
 	</div>
 	<div id="atf_buyBox">	<!-- buyBox -->
+		<div id="bb_title" class="bb_title">Buying Options</div>
 		<div id="bb_allTab" class="bb_tab bb_tabOn">
 			<a href="">All options <span class="bb_count">(234)</span></a>
 			<div id="bb_sumPriceAll" class="bb_sumPrice" style="display:none;">$123.45 - $6,789.00</div>
@@ -79,7 +136,6 @@
 				<a class="ui-button buy" href="">Add to cart</a>
 				<a class="ui-button wish sm-btn" href="">Add to wish list</a>
 			</div>
-			
 		</div>
 		<div id="bb_saleTab" class="bb_tab">
 			<a href="">Sale <span class="bb_count">(34)</span></a>
@@ -136,6 +192,15 @@
 	</div>
 	<div style="clear:both;"></div>
 </div>
-
+<div id="sims" style="display:none;">	<!-- Sims Page -->
+	This would be similar items
+</div>
+<div id="category" style="display:none;">	<!-- Category Page -->
+	This would be more about the category
+</div>
+<div id="what" style="display:none;">	<!-- What goes with this? Page -->
+	This would be compatible or stylistic items
+</div>
+</div>
 </body>
 </html>

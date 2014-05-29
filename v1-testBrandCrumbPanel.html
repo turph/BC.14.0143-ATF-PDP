@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>v1- Brand/Crumb Panel</title>
+	<link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bcs/main" src="http://www.backcountry.com/b6b9dd99bb4783be59c4fdd01e6ead57ec76ca83/javascript/pkg/bcs/main.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/widgets/bc.controller" src="http://www.backcountry.com/b6b9dd99bb4783be59c4fdd01e6ead57ec76ca83/javascript/pkg/common/widgets/bc.controller.js"></script>
+</head>
+<body style="margin:20px;">
+<script type="text/javascript"> /* Brand & Crumb Link Panel */
+/* Open the options panel */
+$(document).ready (function () {
+	$('#brandLogo, #crumb1, #crumb2, #crumb3, #crumb4').click (function () {
+		$('#brandCrumbDetail').slideDown('slow');
+		return false;
+	});
+})
+$(document).ready (function () {
+	$('#closeDetail').click (function () {
+		$('#brandCrumbDetail').slideUp('slow');
+		return false;
+	});
+})
+</script>
+
+<div class="pdpWrapper">
+<div class="header"><img src="img/fakeHeader.png" width="1172" height="170" alt="FakeHeader"></div>
+<div class="pt_pdpNav">
+	<div class="pt_brandCrumb">
+		<div class="pt_pdpNavLogo"><a id="brandLogo" href=""><img src="http://www.backcountry.com/images/brand/thumb/NorthFacelogo2010.jpg"></a></div>
+		<div class="pt_pdpCrumb">
+			<a id="crumb1" href="">Hike & Camp</a>/
+			<a id="crumb2" href="">Camp Kitchen</a>/
+			<a id="crumb3" href="">Pots & Pans</a>/
+			<a id="crumb4" href="">Aluminum Pots & Pans</a>
+		</div>
+	</div>
+	<div class="pt_pdpNavOptions">
+		<a id="whatNav" href="">What goes with this?</a>
+		<a id="categoryNav" href="">All jackets</a>
+		<a id="simsNav" href="">Similar products</a>
+		<a id="buyNav" class="pt_buyNow" href="">Buy Now</a>
+	</div>
+	<div style="clear:both;"></div>
+	<div id="brandCrumbDetail" class="pt_brandCrumbDetail" style="display:none;">
+		<div class="closeDialog"><a id="closeDetail" href="">x</a></div>
+		<div class="bc_links">
+			<a href="">shop jetboil</a>
+			<a href="">Jetboil aluminum pots & pans</a>
+			<a href="">Jetboil pots & pans</a>
+			<a href="">Jetboil camp kitchen</a>
+			<a href="">All Jetboil products</a>
+			<a href="">Sale | Outlet</a>
+			<a class="bc_linkSpace" href="">Learn about Jetboil</a>
+		</div>
+		<div class="bc_links">
+			<a href="">jetboil top categories</a>
+			<a href="">hike & camp</a>
+		</div>
+		<div class="bc_links allLinks">
+			<a href="">Shop all</a>
+			<a href="">hike & camp</a>
+			<a href="">camp kitchen</a>
+			<a href="">pots & pans</a>
+			<a href="">aluminum pots & pans</a>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+</div>
+
+
+</body>
+</html>
+
+
+

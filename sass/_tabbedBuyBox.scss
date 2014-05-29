@@ -1,9 +1,11 @@
 #atf_buyBox{
+	/*border:1px solid $gray-lighter;*/
+	.bb_title{display:none;}
 	.bb_tab{
 		padding:18px 10px 0 32px;height:30px;
-		border-top:1px solid $gray-lightest;
+		border-top:1px solid $gray-light;
 		background:url('../img/icon16_radioOff.png') no-repeat 10 50%;
-		&:last-child{border-bottom:1px solid $gray-lightest;}
+		&:last-child{border-bottom:1px solid $gray-light;}
 		a{
 			color:$black;display:block;font-size:16px;
 			.bb_count{font-size:14px;color:$gray;}
@@ -13,7 +15,9 @@
 			float:right;margin:-16px 0 0 0;
 			.bb_sumLabel{font-size:16px;color:$gray;}
 		}
+		&:nth-child(2){border:none;}
 		&:hover{background-color:$gray-dim;}
+		
 	}
 	.bb_tabOn{
 		background:url('../img/icon16_radioOn.png') no-repeat 10 50%;
@@ -23,7 +27,22 @@
 		margin:0;padding:0 10px 15px 32px;
 		.bb_varPrice{text-align:right;color:$red;font-size:24px;}
 		.bb_buttonRow{margin:20px 0 0 0;}
-		.ui-button{margin:0 0 15px 0;display:list-item;}
+		.ui-button{margin:0 0 15px 0;display:list-item;max-width:187px;}
 		.bb_fromPrice{font-size:18px;color:$gray;}
+	}
+}
+
+
+/* iPhone layout */
+@include respond-to(handhelds){
+	#atf_buyBox{
+		clear:both;border-bottom:1px solid $gray;
+		.bb_title{padding:12px 0 12px 10px;display:block;border-top:1px solid $gray;font-size:24px;}
+		.bb_tab, .bb_varPanel{margin:0 10px;}
+		.bb_tab{
+			padding:18px 0 0 32px;height:40px;
+			a{font-size:21px;}
+		}
+		.bb_varPrice{margin:0 0 10px 0;}
 	}
 }

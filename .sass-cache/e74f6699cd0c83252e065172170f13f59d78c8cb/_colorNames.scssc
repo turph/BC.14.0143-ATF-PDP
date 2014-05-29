@@ -1,0 +1,994 @@
+3.2.1 (Media Mark)
+8ca81deef37151c132ff317a68476d2736abccde
+o:Sass::Tree::RootNode
+:
+@linei:@template"˜"//Color name definitions
+
+$AliceBlue:#F0F8FF;
+$AntiqueWhite:#FAEBD7;
+$Aqua:#00FFFF;
+$Aquamarine:#7fffd4;
+$Azure:#f0ffff;
+$Beige:#f5f5dc;
+$Bisque:#ffe4c4;
+$Black:#000000;
+$BlanchedAlmond:#FFEBCD;
+$Blue:#0000FF;
+$BlueViolet:#8A2BE2;
+$Brown:#A52A2A;
+$BurlyWood:#DEB887;
+$CadetBlue:#5F9EA0;
+$Chartreuse:#7FFF00;
+$Chocolate:#D2691E;
+$Coral:#FF7F50;
+$CornflowerBlue:#6495ED;
+$Cornsilk:#FFF8DC;
+$Crimson:#DC143C;
+$Cyan:#00FFFF;
+$DarkBlue:#00008B;
+$DarkCyan:#008B8B;
+$DarkGoldenrod:#B8860B;
+$DarkGray:#A9A9A9;
+$DarkGrey:#A9A9A9;
+$DarkGreen:#006400;
+$DarkKhaki:#BDB76B;
+$DarkMagenta:#8B008B;
+$DarkOliveGreen:#556B2F;
+$DarkOrange:#FF8C00;
+$DarkOrchid:#9932CC;
+$DarkRed:#8B0000;
+$DarkSalmon:#E9967A;
+$DarkSeaGreen:#8FBC8F;
+$DarkSlateBlue:#483D8B;
+$DarkSlateGray:#2F4F4F;
+$DarkSlateGrey:#2F4F4F;
+$DarkTurquoise:#00CED1;
+$DarkViolet:#9400D3;
+$DeepPink:#FF1493;
+$DeepSkyBlue:#00BFFF;
+$DimGray:#696969;
+$DimGrey:#696969;
+$DodgerBlue:#1E90FF;
+$FireBrick:#B22222;
+$FloralWhite:#FFFAF0;
+$ForestGreen:#228B22;
+$Fuchsia:#FF00FF;
+$Gainsboro:#DCDCDC;
+$GhostWhite:#F8F8FF;
+$Gold:#FFD700;
+$Goldenrod:#DAA520;
+$Gray:#808080;
+$Grey:#808080;
+$Green:#008000;
+$GreenYellow:#ADFF2F;
+$Honeydew:#F0FFF0;
+$HotPink:#FF69B4;
+$IndianRed:#CD5C5C;
+$Indigo:#4B0082;
+$Ivory:#FFFFF0;
+$Khaki:#F0E68C;
+$Lavender:#E6E6FA;
+$LavenderBlush:#FFF0F5;
+$LawnGreen:#7CFC00;
+$LemonChiffon:#FFFACD;
+$LightBlue:#ADD8E6;
+$LightCoral:#F08080;
+$LightCyan:#E0FFFF;
+$LightGoldenrodYellow:#FAFAD2;
+$LightGreen:#90EE90;
+$LightGray:#D3D3D3;
+$LightGrey:#D3D3D3;
+$LightPink:#FFB6C1;
+$LightSalmon:#FFA07A;
+$LightSeaGreen:#20B2AA;
+$LightSkyBlue:#87CEFA;
+$LightSlateGray:#778899;
+$LightSlateGrey:#778899;
+$LightSteelBlue:#B0C4DE;
+$LightYellow:#FFFFE0;
+$Lime:#00FF00;
+$LimeGreen:#32CD32;
+$Linen:#FAF0E6;
+$Magenta:#FF00FF;
+$Maroon:#800000;
+$MediumAquamarine:#66CDAA;
+$MediumBlue:#0000CD;
+$MediumOrchid:#BA55D3;
+$MediumPurple:#9370DB;
+$MediumSeaGreen:#3CB371;
+$MediumSlateBlue:#7B68EE;
+$MediumSpringGreen:#00FA9A;
+$MediumTurquoise:#48D1CC;
+$MediumVioletRed:#C71585;
+$MidnightBlue:#191970;
+$MintCream:#F5FFFA;
+$MistyRose:#FFE4E1;
+$Moccasin:#FFE4B5;
+$NavajoWhite:#FFDEAD;
+$Navy:#000080;
+$OldLace:#FDF5E6;
+$Olive:#808000;
+$OliveDrab:#6B8E23;
+$Orange:#FFA500;
+$OrangeRed:#FF4500;
+$Orchid:#DA70D6;
+$PaleGoldenrod:#EEE8AA;
+$PaleGreen:#98FB98;
+$PaleTurquoise:#AFEEEE;
+$PaleVioletRed:#DB7093;
+$PapayaWhip:#FFEFD5;
+$PeachPuff:#FFDAB9;
+$Peru:#CD853F;
+$Pink:#FFC0CB;
+$Plum:#DDA0DD;
+$PowderBlue:#B0E0E6;
+$Purple:#800080;
+$Red:#FF0000;
+$RosyBrown:#BC8F8F;
+$RoyalBlue:#4169E1;
+$SaddleBrown:#8B4513;
+$Salmon:#FA8072;
+$SandyBrown:#F4A460;
+$SeaGreen:#2E8B57;
+$Seashell:#FFF5EE;
+$Sienna:#A0522D;
+$Silver:#C0C0C0;
+$SkyBlue:#87CEEB;
+$SlateBlue:#6A5ACD;
+$SlateGray:#708090;
+$SlateGrey:#708090;
+$Snow:#FFFAFA;
+$SpringGreen:#00FF7F;
+$SteelBlue:#4682B4;
+$Tan:#D2B48C;
+$Teal:#008080;
+$Thistle:#D8BFD8;
+$Tomato:#FF6347;
+$Turquoise:#40E0D0;
+$Violet:#EE82EE;
+$Wheat:#F5DEB3;
+$White:#FFFFFF;
+$WhiteSmoke:#F5F5F5;
+$Yellow:#FFFF00;
+$YellowGreen:#9ACD32;
+
+.AliceBlue{background-color:$AliceBlue};
+.AntiqueWhite{background-color:$AntiqueWhite};
+.Aqua{background-color:$Aqua};
+.Aquamarine{background-color:$Aquamarine};
+.Azure{background-color:$Azure};
+.Beige{background-color:$Beige};
+.Bisque{background-color:$Bisque};
+.Black{background-color:$Black};
+.BlanchedAlmond{background-color:$BlanchedAlmond};
+.Blue{background-color:$Blue};
+.BlueViolet{background-color:$BlueViolet};
+.Brown{background-color:$Brown};
+.BurlyWood{background-color:$BurlyWood};
+.CadetBlue{background-color:$CadetBlue};
+.Chartreuse{background-color:$Chartreuse};
+.Chocolate{background-color:$Chocolate};
+.Coral{background-color:$Coral};
+.CornflowerBlue{background-color:$CornflowerBlue};
+.Cornsilk{background-color:$Cornsilk};
+.Crimson{background-color:$Crimson};
+.Cyan{background-color:$Cyan};
+.DarkBlue{background-color:$DarkBlue};
+.DarkCyan{background-color:$DarkCyan};
+.DarkGoldenrod{background-color:$DarkGoldenrod};
+.DarkGray{background-color:$DarkGray};
+.DarkGrey{background-color:$DarkGrey};
+.DarkGreen{background-color:$DarkGreen};
+.DarkKhaki{background-color:$DarkKhaki};
+.DarkMagenta{background-color:$DarkMagenta};
+.DarkOliveGreen{background-color:$DarkOliveGreen};
+.DarkOrange{background-color:$DarkOrange};
+.DarkOrchid{background-color:$DarkOrchid};
+.DarkRed{background-color:$DarkRed};
+.DarkSalmon{background-color:$DarkSalmon};
+.DarkSeaGreen{background-color:$DarkSeaGreen};
+.DarkSlateBlue{background-color:$DarkSlateBlue};
+.DarkSlateGray{background-color:$DarkSlateGray};
+.DarkSlateGrey{background-color:$DarkSlateGrey};
+.DarkTurquoise{background-color:$DarkTurquoise};
+.DarkViolet{background-color:$DarkViolet};
+.DeepPink{background-color:$DeepPink};
+.DeepSkyBlue{background-color:$DeepSkyBlue};
+.DimGray{background-color:$DimGray};
+.DimGrey{background-color:$DimGrey};
+.DodgerBlue{background-color:$DodgerBlue};
+.FireBrick{background-color:$FireBrick};
+.FloralWhite{background-color:$FloralWhite};
+.ForestGreen{background-color:$ForestGreen};
+.Fuchsia{background-color:$Fuchsia};
+.Gainsboro{background-color:$Gainsboro};
+.GhostWhite{background-color:$GhostWhite};
+.Gold{background-color:$Gold};
+.Goldenrod{background-color:$Goldenrod};
+.Gray{background-color:$Gray};
+.Grey{background-color:$Grey};
+.Green{background-color:$Green};
+.GreenYellow{background-color:$GreenYellow};
+.Honeydew{background-color:$Honeydew};
+.HotPink{background-color:$HotPink};
+.IndianRed{background-color:$IndianRed};
+.Indigo{background-color:$Indigo};
+.Ivory{background-color:$Ivory};
+.Khaki{background-color:$Khaki};
+.Lavender{background-color:$Lavender};
+.LavenderBlush{background-color:$LavenderBlush};
+.LawnGreen{background-color:$LawnGreen};
+.LemonChiffon{background-color:$LemonChiffon};
+.LightBlue{background-color:$LightBlue};
+.LightCoral{background-color:$LightCoral};
+.LightCyan{background-color:$LightCyan};
+.LightGoldenrodYellow{background-color:$LightGoldenrodYellow};
+.LightGreen{background-color:$LightGreen};
+.LightGray{background-color:$LightGray};
+.LightGrey{background-color:$LightGrey};
+.LightPink{background-color:$LightPink};
+.LightSalmon{background-color:$LightSalmon};
+.LightSeaGreen{background-color:$LightSeaGreen};
+.LightSkyBlue{background-color:$LightSkyBlue};
+.LightSlateGray{background-color:$LightSlateGray};
+.LightSlateGrey{background-color:$LightSlateGrey};
+.LightSteelBlue{background-color:$LightSteelBlue};
+.LightYellow{background-color:$LightYellow};
+.Lime{background-color:$Lime};
+.LimeGreen{background-color:$LimeGreen};
+.Linen{background-color:$Linen};
+.Magenta{background-color:$Magenta};
+.Maroon{background-color:$Maroon};
+.MediumAquamarine{background-color:$MediumAquamarine};
+.MediumBlue{background-color:$MediumBlue};
+.MediumOrchid{background-color:$MediumOrchid};
+.MediumPurple{background-color:$MediumPurple};
+.MediumSeaGreen{background-color:$MediumSeaGreen};
+.MediumSlateBlue{background-color:$MediumSlateBlue};
+.MediumSpringGreen{background-color:$MediumSpringGreen};
+.MediumTurquoise{background-color:$MediumTurquoise};
+.MediumVioletRed{background-color:$MediumVioletRed};
+.MidnightBlue{background-color:$MidnightBlue};
+.MintCream{background-color:$MintCream};
+.MistyRose{background-color:$MistyRose};
+.Moccasin{background-color:$Moccasin};
+.NavajoWhite{background-color:$NavajoWhite};
+.Navy{background-color:$Navy};
+.OldLace{background-color:$OldLace};
+.Olive{background-color:$Olive};
+.OliveDrab{background-color:$OliveDrab};
+.Orange{background-color:$Orange};
+.OrangeRed{background-color:$OrangeRed};
+.Orchid{background-color:$Orchid};
+.PaleGoldenrod{background-color:$PaleGoldenrod};
+.PaleGreen{background-color:$PaleGreen};
+.PaleTurquoise{background-color:$PaleTurquoise};
+.PaleVioletRed{background-color:$PaleVioletRed};
+.PapayaWhip{background-color:$PapayaWhip};
+.PeachPuff{background-color:$PeachPuff};
+.Peru{background-color:$Peru};
+.Pink{background-color:$Pink};
+.Plum{background-color:$Plum};
+.PowderBlue{background-color:$PowderBlue};
+.Purple{background-color:$Purple};
+.Red{background-color:$Red};
+.RosyBrown{background-color:$RosyBrown};
+.RoyalBlue{background-color:$RoyalBlue};
+.SaddleBrown{background-color:$SaddleBrown};
+.Salmon{background-color:$Salmon};
+.SandyBrown{background-color:$SandyBrown};
+.SeaGreen{background-color:$SeaGreen};
+.Seashell{background-color:$Seashell};
+.Sienna{background-color:$Sienna};
+.Silver{background-color:$Silver};
+.SkyBlue{background-color:$SkyBlue};
+.SlateBlue{background-color:$SlateBlue};
+.SlateGray{background-color:$SlateGray};
+.SlateGrey{background-color:$SlateGrey};
+.Snow{background-color:$Snow};
+.SpringGreen{background-color:$SpringGreen};
+.SteelBlue{background-color:$SteelBlue};
+.Tan{background-color:$Tan};
+.Teal{background-color:$Teal};
+.Thistle{background-color:$Thistle};
+.Tomato{background-color:$Tomato};
+.Turquoise{background-color:$Turquoise};
+.Violet{background-color:$Violet};
+.Wheat{background-color:$Wheat};
+.White{background-color:$White};
+.WhiteSmoke{background-color:$WhiteSmoke};
+.Yellow{background-color:$Yellow};
+.YellowGreen{background-color:$YellowGreen};:@has_childrenT:@options{ :@children['o:Sass::Tree::CommentNode
+:
+@type:silent;i;	@;
+[ :@value[" /*Color name definitions */o:Sass::Tree::VariableNode:@guarded0:
+@name"AliceBlue;i:
+@expro:Sass::Script::Color	:@attrs{	:
+alphai:
+greeni¯:	blueiˇ:redi;i;	@;0;	@;
+[ o;;0;"AntiqueWhite;i	;o;	;{	;i;iÎ;i◊;i˙;i	;	@;0;	@;
+[ o;;0;"	Aqua;i
+;o;	;{	;i;iˇ;iˇ;i ;i
+;	@;0;	@;
+[ o;;0;"Aquamarine;i;o;	;{	;i;iˇ;i‘;i;i;	@;0;	@;
+[ o;;0;"
+Azure;i;o;	;{	;i;iˇ;iˇ;i;i;	@;0;	@;
+[ o;;0;"
+Beige;i;o;	;{	;i;iı;i‹;iı;i;	@;0;	@;
+[ o;;0;"Bisque;i;o;	;{	;i;i‰;iƒ;iˇ;i;	@;0;	@;
+[ o;;0;"
+Black;i;o;	;{	;i;i ;i ;i ;i;	@;0;	@;
+[ o;;0;"BlanchedAlmond;i;o;	;{	;i;iÎ;iÕ;iˇ;i;	@;0;	@;
+[ o;;0;"	Blue;i;o;	;{	;i;i ;iˇ;i ;i;	@;0;	@;
+[ o;;0;"BlueViolet;i;o;	;{	;i;i0;i‚;iä;i;	@;0;	@;
+[ o;;0;"
+Brown;i;o;	;{	;i;i/;i/;i•;i;	@;0;	@;
+[ o;;0;"BurlyWood;i;o;	;{	;i;i∏;iá;iﬁ;i;	@;0;	@;
+[ o;;0;"CadetBlue;i;o;	;{	;i;iû;i†;id;i;	@;0;	@;
+[ o;;0;"Chartreuse;i;o;	;{	;i;iˇ;i ;i;i;	@;0;	@;
+[ o;;0;"Chocolate;i;o;	;{	;i;in;i#;i“;i;	@;0;	@;
+[ o;;0;"
+Coral;i;o;	;{	;i;i;iU;iˇ;i;	@;0;	@;
+[ o;;0;"CornflowerBlue;i;o;	;{	;i;iï;iÌ;ii;i;	@;0;	@;
+[ o;;0;"Cornsilk;i;o;	;{	;i;i¯;i‹;iˇ;i;	@;0;	@;
+[ o;;0;"Crimson;i;o;	;{	;i;i;iA;i‹;i;	@;0;	@;
+[ o;;0;"	Cyan;i;o;	;{	;i;iˇ;iˇ;i ;i;	@;0;	@;
+[ o;;0;"DarkBlue;i;o;	;{	;i;i ;iã;i ;i;	@;0;	@;
+[ o;;0;"DarkCyan;i;o;	;{	;i;iã;iã;i ;i;	@;0;	@;
+[ o;;0;"DarkGoldenrod;i;o;	;{	;i;iÜ;i;i∏;i;	@;0;	@;
+[ o;;0;"DarkGray;i ;o;	;{	;i;i©;i©;i©;i ;	@;0;	@;
+[ o;;0;"DarkGrey;i!;o;	;{	;i;i©;i©;i©;i!;	@;0;	@;
+[ o;;0;"DarkGreen;i";o;	;{	;i;ii;i ;i ;i";	@;0;	@;
+[ o;;0;"DarkKhaki;i#;o;	;{	;i;i∑;ip;iΩ;i#;	@;0;	@;
+[ o;;0;"DarkMagenta;i$;o;	;{	;i;i ;iã;iã;i$;	@;0;	@;
+[ o;;0;"DarkOliveGreen;i%;o;	;{	;i;ip;i4;iZ;i%;	@;0;	@;
+[ o;;0;"DarkOrange;i&;o;	;{	;i;iå;i ;iˇ;i&;	@;0;	@;
+[ o;;0;"DarkOrchid;i';o;	;{	;i;i7;iÃ;iô;i';	@;0;	@;
+[ o;;0;"DarkRed;i(;o;	;{	;i;i ;i ;iã;i(;	@;0;	@;
+[ o;;0;"DarkSalmon;i);o;	;{	;i;iñ;i;iÈ;i);	@;0;	@;
+[ o;;0;"DarkSeaGreen;i*;o;	;{	;i;iº;iè;iè;i*;	@;0;	@;
+[ o;;0;"DarkSlateBlue;i+;o;	;{	;i;iB;iã;iM;i+;	@;0;	@;
+[ o;;0;"DarkSlateGray;i,;o;	;{	;i;iT;iT;i4;i,;	@;0;	@;
+[ o;;0;"DarkSlateGrey;i-;o;	;{	;i;iT;iT;i4;i-;	@;0;	@;
+[ o;;0;"DarkTurquoise;i.;o;	;{	;i;iŒ;i—;i ;i.;	@;0;	@;
+[ o;;0;"DarkViolet;i/;o;	;{	;i;i ;i”;iî;i/;	@;0;	@;
+[ o;;0;"DeepPink;i0;o;	;{	;i;i;iì;iˇ;i0;	@;0;	@;
+[ o;;0;"DeepSkyBlue;i1;o;	;{	;i;iø;iˇ;i ;i1;	@;0;	@;
+[ o;;0;"DimGray;i2;o;	;{	;i;in;in;in;i2;	@;0;	@;
+[ o;;0;"DimGrey;i3;o;	;{	;i;in;in;in;i3;	@;0;	@;
+[ o;;0;"DodgerBlue;i4;o;	;{	;i;iê;iˇ;i#;i4;	@;0;	@;
+[ o;;0;"FireBrick;i5;o;	;{	;i;i';i';i≤;i5;	@;0;	@;
+[ o;;0;"FloralWhite;i6;o;	;{	;i;i˙;i;iˇ;i6;	@;0;	@;
+[ o;;0;"ForestGreen;i7;o;	;{	;i;iã;i';i';i7;	@;0;	@;
+[ o;;0;"Fuchsia;i8;o;	;{	;i;i ;iˇ;iˇ;i8;	@;0;	@;
+[ o;;0;"Gainsboro;i9;o;	;{	;i;i‹;i‹;i‹;i9;	@;0;	@;
+[ o;;0;"GhostWhite;i:;o;	;{	;i;i¯;iˇ;i¯;i:;	@;0;	@;
+[ o;;0;"	Gold;i;;o;	;{	;i;i◊;i ;iˇ;i;;	@;0;	@;
+[ o;;0;"Goldenrod;i<;o;	;{	;i;i•;i%;i⁄;i<;	@;0;	@;
+[ o;;0;"	Gray;i=;o;	;{	;i;iÄ;iÄ;iÄ;i=;	@;0;	@;
+[ o;;0;"	Grey;i>;o;	;{	;i;iÄ;iÄ;iÄ;i>;	@;0;	@;
+[ o;;0;"
+Green;i?;o;	;{	;i;iÄ;i ;i ;i?;	@;0;	@;
+[ o;;0;"GreenYellow;i@;o;	;{	;i;iˇ;i4;i≠;i@;	@;0;	@;
+[ o;;0;"Honeydew;iA;o;	;{	;i;iˇ;i;i;iA;	@;0;	@;
+[ o;;0;"HotPink;iB;o;	;{	;i;in;i¥;iˇ;iB;	@;0;	@;
+[ o;;0;"IndianRed;iC;o;	;{	;i;ia;ia;iÕ;iC;	@;0;	@;
+[ o;;0;"Indigo;iD;o;	;{	;i;i ;iÇ;iP;iD;	@;0;	@;
+[ o;;0;"
+Ivory;iE;o;	;{	;i;iˇ;i;iˇ;iE;	@;0;	@;
+[ o;;0;"
+Khaki;iF;o;	;{	;i;iÊ;iå;i;iF;	@;0;	@;
+[ o;;0;"Lavender;iG;o;	;{	;i;iÊ;i˙;iÊ;iG;	@;0;	@;
+[ o;;0;"LavenderBlush;iH;o;	;{	;i;i;iı;iˇ;iH;	@;0;	@;
+[ o;;0;"LawnGreen;iI;o;	;{	;i;i¸;i ;i|;iI;	@;0;	@;
+[ o;;0;"LemonChiffon;iJ;o;	;{	;i;i˙;iÕ;iˇ;iJ;	@;0;	@;
+[ o;;0;"LightBlue;iK;o;	;{	;i;iÿ;iÊ;i≠;iK;	@;0;	@;
+[ o;;0;"LightCoral;iL;o;	;{	;i;iÄ;iÄ;i;iL;	@;0;	@;
+[ o;;0;"LightCyan;iM;o;	;{	;i;iˇ;iˇ;i‡;iM;	@;0;	@;
+[ o;;0;"LightGoldenrodYellow;iN;o;	;{	;i;i˙;i“;i˙;iN;	@;0;	@;
+[ o;;0;"LightGreen;iO;o;	;{	;i;iÓ;iê;iê;iO;	@;0;	@;
+[ o;;0;"LightGray;iP;o;	;{	;i;i”;i”;i”;iP;	@;0;	@;
+[ o;;0;"LightGrey;iQ;o;	;{	;i;i”;i”;i”;iQ;	@;0;	@;
+[ o;;0;"LightPink;iR;o;	;{	;i;i∂;i¡;iˇ;iR;	@;0;	@;
+[ o;;0;"LightSalmon;iS;o;	;{	;i;i†;i;iˇ;iS;	@;0;	@;
+[ o;;0;"LightSeaGreen;iT;o;	;{	;i;i≤;i™;i%;iT;	@;0;	@;
+[ o;;0;"LightSkyBlue;iU;o;	;{	;i;iŒ;i˙;iá;iU;	@;0;	@;
+[ o;;0;"LightSlateGray;iV;o;	;{	;i;ià;iô;i|;iV;	@;0;	@;
+[ o;;0;"LightSlateGrey;iW;o;	;{	;i;ià;iô;i|;iW;	@;0;	@;
+[ o;;0;"LightSteelBlue;iX;o;	;{	;i;iƒ;iﬁ;i∞;iX;	@;0;	@;
+[ o;;0;"LightYellow;iY;o;	;{	;i;iˇ;i‡;iˇ;iY;	@;0;	@;
+[ o;;0;"	Lime;iZ;o;	;{	;i;iˇ;i ;i ;iZ;	@;0;	@;
+[ o;;0;"LimeGreen;i[;o;	;{	;i;iÕ;i7;i7;i[;	@;0;	@;
+[ o;;0;"
+Linen;i\;o;	;{	;i;i;iÊ;i˙;i\;	@;0;	@;
+[ o;;0;"Magenta;i];o;	;{	;i;i ;iˇ;iˇ;i];	@;0;	@;
+[ o;;0;"Maroon;i^;o;	;{	;i;i ;i ;iÄ;i^;	@;0;	@;
+[ o;;0;"MediumAquamarine;i_;o;	;{	;i;iÕ;i™;ik;i_;	@;0;	@;
+[ o;;0;"MediumBlue;i`;o;	;{	;i;i ;iÕ;i ;i`;	@;0;	@;
+[ o;;0;"MediumOrchid;ia;o;	;{	;i;iZ;i”;i∫;ia;	@;0;	@;
+[ o;;0;"MediumPurple;ib;o;	;{	;i;iu;i€;iì;ib;	@;0;	@;
+[ o;;0;"MediumSeaGreen;ic;o;	;{	;i;i≥;iv;iA;ic;	@;0;	@;
+[ o;;0;"MediumSlateBlue;id;o;	;{	;i;im;iÓ;i{;id;	@;0;	@;
+[ o;;0;"MediumSpringGreen;ie;o;	;{	;i;i˙;iö;i ;ie;	@;0;	@;
+[ o;;0;"MediumTurquoise;if;o;	;{	;i;i—;iÃ;iM;if;	@;0;	@;
+[ o;;0;"MediumVioletRed;ig;o;	;{	;i;i;iÖ;i«;ig;	@;0;	@;
+[ o;;0;"MidnightBlue;ih;o;	;{	;i;i;iu;i;ih;	@;0;	@;
+[ o;;0;"MintCream;ii;o;	;{	;i;iˇ;i˙;iı;ii;	@;0;	@;
+[ o;;0;"MistyRose;ij;o;	;{	;i;i‰;i·;iˇ;ij;	@;0;	@;
+[ o;;0;"Moccasin;ik;o;	;{	;i;i‰;iµ;iˇ;ik;	@;0;	@;
+[ o;;0;"NavajoWhite;il;o;	;{	;i;iﬁ;i≠;iˇ;il;	@;0;	@;
+[ o;;0;"	Navy;im;o;	;{	;i;i ;iÄ;i ;im;	@;0;	@;
+[ o;;0;"OldLace;in;o;	;{	;i;iı;iÊ;i˝;in;	@;0;	@;
+[ o;;0;"
+Olive;io;o;	;{	;i;iÄ;i ;iÄ;io;	@;0;	@;
+[ o;;0;"OliveDrab;ip;o;	;{	;i;ié;i(;ip;ip;	@;0;	@;
+[ o;;0;"Orange;iq;o;	;{	;i;i•;i ;iˇ;iq;	@;0;	@;
+[ o;;0;"OrangeRed;ir;o;	;{	;i;iJ;i ;iˇ;ir;	@;0;	@;
+[ o;;0;"Orchid;is;o;	;{	;i;iu;i÷;i⁄;is;	@;0;	@;
+[ o;;0;"PaleGoldenrod;it;o;	;{	;i;iË;i™;iÓ;it;	@;0;	@;
+[ o;;0;"PaleGreen;iu;o;	;{	;i;i˚;iò;iò;iu;	@;0;	@;
+[ o;;0;"PaleTurquoise;iv;o;	;{	;i;iÓ;iÓ;iØ;iv;	@;0;	@;
+[ o;;0;"PaleVioletRed;iw;o;	;{	;i;iu;iì;i€;iw;	@;0;	@;
+[ o;;0;"PapayaWhip;ix;o;	;{	;i;iÔ;i’;iˇ;ix;	@;0;	@;
+[ o;;0;"PeachPuff;iy;o;	;{	;i;i⁄;iπ;iˇ;iy;	@;0;	@;
+[ o;;0;"	Peru;iz;o;	;{	;i;iÖ;iD;iÕ;iz;	@;0;	@;
+[ o;;0;"	Pink;i{;o;	;{	;i;i¿;iÀ;iˇ;i{;	@;0;	@;
+[ o;;0;"	Plum;i|;o;	;{	;i;i†;i›;i›;i|;	@;0;	@;
+[ o;;0;"PowderBlue;i};o;	;{	;i;i‡;iÊ;i∞;i};	@;0;	@;
+[ o;;0;"Purple;i~;o;	;{	;i;i ;iÄ;iÄ;i~;	@;0;	@;
+[ o;;0;"Red;i;o;	;{	;i;i ;i ;iˇ;i;	@;0;	@;
+[ o;;0;"RosyBrown;i{;o;	;{	;i;iè;iè;iº;i{;	@;0;	@;
+[ o;;0;"RoyalBlue;i|;o;	;{	;i;in;i·;iF;i|;	@;0;	@;
+[ o;;0;"SaddleBrown;i};o;	;{	;i;iJ;i;iã;i};	@;0;	@;
+[ o;;0;"Salmon;i~;o;	;{	;i;iÄ;iw;i˙;i~;	@;0;	@;
+[ o;;0;"SandyBrown;i;o;	;{	;i;i§;ie;iÙ;i;	@;0;	@;
+[ o;;0;"SeaGreen;iÄ;o;	;{	;i;iã;i\;i3;iÄ;	@;0;	@;
+[ o;;0;"Seashell;iÅ;o;	;{	;i;iı;iÓ;iˇ;iÅ;	@;0;	@;
+[ o;;0;"Sienna;iÇ;o;	;{	;i;iW;i2;i†;iÇ;	@;0;	@;
+[ o;;0;"Silver;iÉ;o;	;{	;i;i¿;i¿;i¿;iÉ;	@;0;	@;
+[ o;;0;"SkyBlue;iÑ;o;	;{	;i;iŒ;iÎ;iá;iÑ;	@;0;	@;
+[ o;;0;"SlateBlue;iÖ;o;	;{	;i;i_;iÕ;io;iÖ;	@;0;	@;
+[ o;;0;"SlateGray;iÜ;o;	;{	;i;iÄ;iê;iu;iÜ;	@;0;	@;
+[ o;;0;"SlateGrey;iá;o;	;{	;i;iÄ;iê;iu;iá;	@;0;	@;
+[ o;;0;"	Snow;ià;o;	;{	;i;i˙;i˙;iˇ;ià;	@;0;	@;
+[ o;;0;"SpringGreen;iâ;o;	;{	;i;iˇ;i;i ;iâ;	@;0;	@;
+[ o;;0;"SteelBlue;iä;o;	;{	;i;iÇ;i¥;iK;iä;	@;0;	@;
+[ o;;0;"Tan;iã;o;	;{	;i;i¥;iå;i“;iã;	@;0;	@;
+[ o;;0;"	Teal;iå;o;	;{	;i;iÄ;iÄ;i ;iå;	@;0;	@;
+[ o;;0;"Thistle;iç;o;	;{	;i;iø;iÿ;iÿ;iç;	@;0;	@;
+[ o;;0;"Tomato;ié;o;	;{	;i;ih;iL;iˇ;ié;	@;0;	@;
+[ o;;0;"Turquoise;iè;o;	;{	;i;i‡;i–;iE;iè;	@;0;	@;
+[ o;;0;"Violet;iê;o;	;{	;i;iÇ;iÓ;iÓ;iê;	@;0;	@;
+[ o;;0;"
+Wheat;ië;o;	;{	;i;iﬁ;i≥;iı;ië;	@;0;	@;
+[ o;;0;"
+White;ií;o;	;{	;i;iˇ;iˇ;iˇ;ií;	@;0;	@;
+[ o;;0;"WhiteSmoke;iì;o;	;{	;i;iı;iı;iı;iì;	@;0;	@;
+[ o;;0;"Yellow;iî;o;	;{	;i;iˇ;i ;iˇ;iî;	@;0;	@;
+[ o;;0;"YellowGreen;iï;o;	;{	;i;iÕ;i7;iö;iï;	@;0;	@;
+[ o:Sass::Tree::RuleNode:@parsed_ruleso:"Sass::Selector::CommaSequence:@filename" ;ió:@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence
+;@È;ió:@sourceso:Set:
+@hash{ :@subject0;[o:Sass::Selector::Class;@È;["AliceBlue;ió;ió;T;	@:
+@tabsi ;
+[o:Sass::Tree::PropNode;["background-color;ió;	@;%i ;
+[ :@prop_syntax:new;o:Sass::Script::Variable	;"AliceBlue;ió:@underscored_name"AliceBlue;	@:
+@rule[".AliceBlueo;;o;;" ;iò;[o;;[o;
+;@ ;iò; o;!;"{ ;#0;[o;$;@ ;["AntiqueWhite;iò;iò;T;	@;%i ;
+[o;&;["background-color;iò;	@;%i ;
+[ ;';(;o;)	;"AntiqueWhite;iò;*"AntiqueWhite;	@;+[".AntiqueWhiteo;;o;;" ;iô;[o;;[o;
+;@;iô; o;!;"{ ;#0;[o;$;@;["	Aqua;iô;iô;T;	@;%i ;
+[o;&;["background-color;iô;	@;%i ;
+[ ;';(;o;)	;"	Aqua;iô;*"	Aqua;	@;+["
+.Aquao;;o;;" ;iö;[o;;[o;
+;@.;iö; o;!;"{ ;#0;[o;$;@.;["Aquamarine;iö;iö;T;	@;%i ;
+[o;&;["background-color;iö;	@;%i ;
+[ ;';(;o;)	;"Aquamarine;iö;*"Aquamarine;	@;+[".Aquamarineo;;o;;" ;iõ;[o;;[o;
+;@E;iõ; o;!;"{ ;#0;[o;$;@E;["
+Azure;iõ;iõ;T;	@;%i ;
+[o;&;["background-color;iõ;	@;%i ;
+[ ;';(;o;)	;"
+Azure;iõ;*"
+Azure;	@;+[".Azureo;;o;;" ;iú;[o;;[o;
+;@\;iú; o;!;"{ ;#0;[o;$;@\;["
+Beige;iú;iú;T;	@;%i ;
+[o;&;["background-color;iú;	@;%i ;
+[ ;';(;o;)	;"
+Beige;iú;*"
+Beige;	@;+[".Beigeo;;o;;" ;iù;[o;;[o;
+;@s;iù; o;!;"{ ;#0;[o;$;@s;["Bisque;iù;iù;T;	@;%i ;
+[o;&;["background-color;iù;	@;%i ;
+[ ;';(;o;)	;"Bisque;iù;*"Bisque;	@;+[".Bisqueo;;o;;" ;iû;[o;;[o;
+;@ä;iû; o;!;"{ ;#0;[o;$;@ä;["
+Black;iû;iû;T;	@;%i ;
+[o;&;["background-color;iû;	@;%i ;
+[ ;';(;o;)	;"
+Black;iû;*"
+Black;	@;+[".Blacko;;o;;" ;iü;[o;;[o;
+;@°;iü; o;!;"{ ;#0;[o;$;@°;["BlanchedAlmond;iü;iü;T;	@;%i ;
+[o;&;["background-color;iü;	@;%i ;
+[ ;';(;o;)	;"BlanchedAlmond;iü;*"BlanchedAlmond;	@;+[".BlanchedAlmondo;;o;;" ;i†;[o;;[o;
+;@∏;i†; o;!;"{ ;#0;[o;$;@∏;["	Blue;i†;i†;T;	@;%i ;
+[o;&;["background-color;i†;	@;%i ;
+[ ;';(;o;)	;"	Blue;i†;*"	Blue;	@;+["
+.Blueo;;o;;" ;i°;[o;;[o;
+;@œ;i°; o;!;"{ ;#0;[o;$;@œ;["BlueViolet;i°;i°;T;	@;%i ;
+[o;&;["background-color;i°;	@;%i ;
+[ ;';(;o;)	;"BlueViolet;i°;*"BlueViolet;	@;+[".BlueVioleto;;o;;" ;i¢;[o;;[o;
+;@Ê;i¢; o;!;"{ ;#0;[o;$;@Ê;["
+Brown;i¢;i¢;T;	@;%i ;
+[o;&;["background-color;i¢;	@;%i ;
+[ ;';(;o;)	;"
+Brown;i¢;*"
+Brown;	@;+[".Browno;;o;;" ;i£;[o;;[o;
+;@˝;i£; o;!;"{ ;#0;[o;$;@˝;["BurlyWood;i£;i£;T;	@;%i ;
+[o;&;["background-color;i£;	@;%i ;
+[ ;';(;o;)	;"BurlyWood;i£;*"BurlyWood;	@;+[".BurlyWoodo;;o;;" ;i§;[o;;[o;
+;@;i§; o;!;"{ ;#0;[o;$;@;["CadetBlue;i§;i§;T;	@;%i ;
+[o;&;["background-color;i§;	@;%i ;
+[ ;';(;o;)	;"CadetBlue;i§;*"CadetBlue;	@;+[".CadetBlueo;;o;;" ;i•;[o;;[o;
+;@+;i•; o;!;"{ ;#0;[o;$;@+;["Chartreuse;i•;i•;T;	@;%i ;
+[o;&;["background-color;i•;	@;%i ;
+[ ;';(;o;)	;"Chartreuse;i•;*"Chartreuse;	@;+[".Chartreuseo;;o;;" ;i¶;[o;;[o;
+;@B;i¶; o;!;"{ ;#0;[o;$;@B;["Chocolate;i¶;i¶;T;	@;%i ;
+[o;&;["background-color;i¶;	@;%i ;
+[ ;';(;o;)	;"Chocolate;i¶;*"Chocolate;	@;+[".Chocolateo;;o;;" ;iß;[o;;[o;
+;@Y;iß; o;!;"{ ;#0;[o;$;@Y;["
+Coral;iß;iß;T;	@;%i ;
+[o;&;["background-color;iß;	@;%i ;
+[ ;';(;o;)	;"
+Coral;iß;*"
+Coral;	@;+[".Coralo;;o;;" ;i®;[o;;[o;
+;@p;i®; o;!;"{ ;#0;[o;$;@p;["CornflowerBlue;i®;i®;T;	@;%i ;
+[o;&;["background-color;i®;	@;%i ;
+[ ;';(;o;)	;"CornflowerBlue;i®;*"CornflowerBlue;	@;+[".CornflowerBlueo;;o;;" ;i©;[o;;[o;
+;@á;i©; o;!;"{ ;#0;[o;$;@á;["Cornsilk;i©;i©;T;	@;%i ;
+[o;&;["background-color;i©;	@;%i ;
+[ ;';(;o;)	;"Cornsilk;i©;*"Cornsilk;	@;+[".Cornsilko;;o;;" ;i™;[o;;[o;
+;@û;i™; o;!;"{ ;#0;[o;$;@û;["Crimson;i™;i™;T;	@;%i ;
+[o;&;["background-color;i™;	@;%i ;
+[ ;';(;o;)	;"Crimson;i™;*"Crimson;	@;+[".Crimsono;;o;;" ;i´;[o;;[o;
+;@µ;i´; o;!;"{ ;#0;[o;$;@µ;["	Cyan;i´;i´;T;	@;%i ;
+[o;&;["background-color;i´;	@;%i ;
+[ ;';(;o;)	;"	Cyan;i´;*"	Cyan;	@;+["
+.Cyano;;o;;" ;i¨;[o;;[o;
+;@Ã;i¨; o;!;"{ ;#0;[o;$;@Ã;["DarkBlue;i¨;i¨;T;	@;%i ;
+[o;&;["background-color;i¨;	@;%i ;
+[ ;';(;o;)	;"DarkBlue;i¨;*"DarkBlue;	@;+[".DarkBlueo;;o;;" ;i≠;[o;;[o;
+;@„;i≠; o;!;"{ ;#0;[o;$;@„;["DarkCyan;i≠;i≠;T;	@;%i ;
+[o;&;["background-color;i≠;	@;%i ;
+[ ;';(;o;)	;"DarkCyan;i≠;*"DarkCyan;	@;+[".DarkCyano;;o;;" ;iÆ;[o;;[o;
+;@˙;iÆ; o;!;"{ ;#0;[o;$;@˙;["DarkGoldenrod;iÆ;iÆ;T;	@;%i ;
+[o;&;["background-color;iÆ;	@;%i ;
+[ ;';(;o;)	;"DarkGoldenrod;iÆ;*"DarkGoldenrod;	@;+[".DarkGoldenrodo;;o;;" ;iØ;[o;;[o;
+;@;iØ; o;!;"{ ;#0;[o;$;@;["DarkGray;iØ;iØ;T;	@;%i ;
+[o;&;["background-color;iØ;	@;%i ;
+[ ;';(;o;)	;"DarkGray;iØ;*"DarkGray;	@;+[".DarkGrayo;;o;;" ;i∞;[o;;[o;
+;@(;i∞; o;!;"{ ;#0;[o;$;@(;["DarkGrey;i∞;i∞;T;	@;%i ;
+[o;&;["background-color;i∞;	@;%i ;
+[ ;';(;o;)	;"DarkGrey;i∞;*"DarkGrey;	@;+[".DarkGreyo;;o;;" ;i±;[o;;[o;
+;@?;i±; o;!;"{ ;#0;[o;$;@?;["DarkGreen;i±;i±;T;	@;%i ;
+[o;&;["background-color;i±;	@;%i ;
+[ ;';(;o;)	;"DarkGreen;i±;*"DarkGreen;	@;+[".DarkGreeno;;o;;" ;i≤;[o;;[o;
+;@V;i≤; o;!;"{ ;#0;[o;$;@V;["DarkKhaki;i≤;i≤;T;	@;%i ;
+[o;&;["background-color;i≤;	@;%i ;
+[ ;';(;o;)	;"DarkKhaki;i≤;*"DarkKhaki;	@;+[".DarkKhakio;;o;;" ;i≥;[o;;[o;
+;@m;i≥; o;!;"{ ;#0;[o;$;@m;["DarkMagenta;i≥;i≥;T;	@;%i ;
+[o;&;["background-color;i≥;	@;%i ;
+[ ;';(;o;)	;"DarkMagenta;i≥;*"DarkMagenta;	@;+[".DarkMagentao;;o;;" ;i¥;[o;;[o;
+;@Ñ;i¥; o;!;"{ ;#0;[o;$;@Ñ;["DarkOliveGreen;i¥;i¥;T;	@;%i ;
+[o;&;["background-color;i¥;	@;%i ;
+[ ;';(;o;)	;"DarkOliveGreen;i¥;*"DarkOliveGreen;	@;+[".DarkOliveGreeno;;o;;" ;iµ;[o;;[o;
+;@õ;iµ; o;!;"{ ;#0;[o;$;@õ;["DarkOrange;iµ;iµ;T;	@;%i ;
+[o;&;["background-color;iµ;	@;%i ;
+[ ;';(;o;)	;"DarkOrange;iµ;*"DarkOrange;	@;+[".DarkOrangeo;;o;;" ;i∂;[o;;[o;
+;@≤;i∂; o;!;"{ ;#0;[o;$;@≤;["DarkOrchid;i∂;i∂;T;	@;%i ;
+[o;&;["background-color;i∂;	@;%i ;
+[ ;';(;o;)	;"DarkOrchid;i∂;*"DarkOrchid;	@;+[".DarkOrchido;;o;;" ;i∑;[o;;[o;
+;@…;i∑; o;!;"{ ;#0;[o;$;@…;["DarkRed;i∑;i∑;T;	@;%i ;
+[o;&;["background-color;i∑;	@;%i ;
+[ ;';(;o;)	;"DarkRed;i∑;*"DarkRed;	@;+[".DarkRedo;;o;;" ;i∏;[o;;[o;
+;@‡;i∏; o;!;"{ ;#0;[o;$;@‡;["DarkSalmon;i∏;i∏;T;	@;%i ;
+[o;&;["background-color;i∏;	@;%i ;
+[ ;';(;o;)	;"DarkSalmon;i∏;*"DarkSalmon;	@;+[".DarkSalmono;;o;;" ;iπ;[o;;[o;
+;@˜;iπ; o;!;"{ ;#0;[o;$;@˜;["DarkSeaGreen;iπ;iπ;T;	@;%i ;
+[o;&;["background-color;iπ;	@;%i ;
+[ ;';(;o;)	;"DarkSeaGreen;iπ;*"DarkSeaGreen;	@;+[".DarkSeaGreeno;;o;;" ;i∫;[o;;[o;
+;@;i∫; o;!;"{ ;#0;[o;$;@;["DarkSlateBlue;i∫;i∫;T;	@;%i ;
+[o;&;["background-color;i∫;	@;%i ;
+[ ;';(;o;)	;"DarkSlateBlue;i∫;*"DarkSlateBlue;	@;+[".DarkSlateBlueo;;o;;" ;iª;[o;;[o;
+;@%;iª; o;!;"{ ;#0;[o;$;@%;["DarkSlateGray;iª;iª;T;	@;%i ;
+[o;&;["background-color;iª;	@;%i ;
+[ ;';(;o;)	;"DarkSlateGray;iª;*"DarkSlateGray;	@;+[".DarkSlateGrayo;;o;;" ;iº;[o;;[o;
+;@<;iº; o;!;"{ ;#0;[o;$;@<;["DarkSlateGrey;iº;iº;T;	@;%i ;
+[o;&;["background-color;iº;	@;%i ;
+[ ;';(;o;)	;"DarkSlateGrey;iº;*"DarkSlateGrey;	@;+[".DarkSlateGreyo;;o;;" ;iΩ;[o;;[o;
+;@S;iΩ; o;!;"{ ;#0;[o;$;@S;["DarkTurquoise;iΩ;iΩ;T;	@;%i ;
+[o;&;["background-color;iΩ;	@;%i ;
+[ ;';(;o;)	;"DarkTurquoise;iΩ;*"DarkTurquoise;	@;+[".DarkTurquoiseo;;o;;" ;iæ;[o;;[o;
+;@j;iæ; o;!;"{ ;#0;[o;$;@j;["DarkViolet;iæ;iæ;T;	@;%i ;
+[o;&;["background-color;iæ;	@;%i ;
+[ ;';(;o;)	;"DarkViolet;iæ;*"DarkViolet;	@;+[".DarkVioleto;;o;;" ;iø;[o;;[o;
+;@Å;iø; o;!;"{ ;#0;[o;$;@Å;["DeepPink;iø;iø;T;	@;%i ;
+[o;&;["background-color;iø;	@;%i ;
+[ ;';(;o;)	;"DeepPink;iø;*"DeepPink;	@;+[".DeepPinko;;o;;" ;i¿;[o;;[o;
+;@ò;i¿; o;!;"{ ;#0;[o;$;@ò;["DeepSkyBlue;i¿;i¿;T;	@;%i ;
+[o;&;["background-color;i¿;	@;%i ;
+[ ;';(;o;)	;"DeepSkyBlue;i¿;*"DeepSkyBlue;	@;+[".DeepSkyBlueo;;o;;" ;i¡;[o;;[o;
+;@Ø;i¡; o;!;"{ ;#0;[o;$;@Ø;["DimGray;i¡;i¡;T;	@;%i ;
+[o;&;["background-color;i¡;	@;%i ;
+[ ;';(;o;)	;"DimGray;i¡;*"DimGray;	@;+[".DimGrayo;;o;;" ;i¬;[o;;[o;
+;@∆;i¬; o;!;"{ ;#0;[o;$;@∆;["DimGrey;i¬;i¬;T;	@;%i ;
+[o;&;["background-color;i¬;	@;%i ;
+[ ;';(;o;)	;"DimGrey;i¬;*"DimGrey;	@;+[".DimGreyo;;o;;" ;i√;[o;;[o;
+;@›;i√; o;!;"{ ;#0;[o;$;@›;["DodgerBlue;i√;i√;T;	@;%i ;
+[o;&;["background-color;i√;	@;%i ;
+[ ;';(;o;)	;"DodgerBlue;i√;*"DodgerBlue;	@;+[".DodgerBlueo;;o;;" ;iƒ;[o;;[o;
+;@Ù;iƒ; o;!;"{ ;#0;[o;$;@Ù;["FireBrick;iƒ;iƒ;T;	@;%i ;
+[o;&;["background-color;iƒ;	@;%i ;
+[ ;';(;o;)	;"FireBrick;iƒ;*"FireBrick;	@;+[".FireBricko;;o;;" ;i≈;[o;;[o;
+;@;i≈; o;!;"{ ;#0;[o;$;@;["FloralWhite;i≈;i≈;T;	@;%i ;
+[o;&;["background-color;i≈;	@;%i ;
+[ ;';(;o;)	;"FloralWhite;i≈;*"FloralWhite;	@;+[".FloralWhiteo;;o;;" ;i∆;[o;;[o;
+;@";i∆; o;!;"{ ;#0;[o;$;@";["ForestGreen;i∆;i∆;T;	@;%i ;
+[o;&;["background-color;i∆;	@;%i ;
+[ ;';(;o;)	;"ForestGreen;i∆;*"ForestGreen;	@;+[".ForestGreeno;;o;;" ;i«;[o;;[o;
+;@9;i«; o;!;"{ ;#0;[o;$;@9;["Fuchsia;i«;i«;T;	@;%i ;
+[o;&;["background-color;i«;	@;%i ;
+[ ;';(;o;)	;"Fuchsia;i«;*"Fuchsia;	@;+[".Fuchsiao;;o;;" ;i»;[o;;[o;
+;@P;i»; o;!;"{ ;#0;[o;$;@P;["Gainsboro;i»;i»;T;	@;%i ;
+[o;&;["background-color;i»;	@;%i ;
+[ ;';(;o;)	;"Gainsboro;i»;*"Gainsboro;	@;+[".Gainsboroo;;o;;" ;i…;[o;;[o;
+;@g;i…; o;!;"{ ;#0;[o;$;@g;["GhostWhite;i…;i…;T;	@;%i ;
+[o;&;["background-color;i…;	@;%i ;
+[ ;';(;o;)	;"GhostWhite;i…;*"GhostWhite;	@;+[".GhostWhiteo;;o;;" ;i ;[o;;[o;
+;@~;i ; o;!;"{ ;#0;[o;$;@~;["	Gold;i ;i ;T;	@;%i ;
+[o;&;["background-color;i ;	@;%i ;
+[ ;';(;o;)	;"	Gold;i ;*"	Gold;	@;+["
+.Goldo;;o;;" ;iÀ;[o;;[o;
+;@ï;iÀ; o;!;"{ ;#0;[o;$;@ï;["Goldenrod;iÀ;iÀ;T;	@;%i ;
+[o;&;["background-color;iÀ;	@;%i ;
+[ ;';(;o;)	;"Goldenrod;iÀ;*"Goldenrod;	@;+[".Goldenrodo;;o;;" ;iÃ;[o;;[o;
+;@¨;iÃ; o;!;"{ ;#0;[o;$;@¨;["	Gray;iÃ;iÃ;T;	@;%i ;
+[o;&;["background-color;iÃ;	@;%i ;
+[ ;';(;o;)	;"	Gray;iÃ;*"	Gray;	@;+["
+.Grayo;;o;;" ;iÕ;[o;;[o;
+;@√;iÕ; o;!;"{ ;#0;[o;$;@√;["	Grey;iÕ;iÕ;T;	@;%i ;
+[o;&;["background-color;iÕ;	@;%i ;
+[ ;';(;o;)	;"	Grey;iÕ;*"	Grey;	@;+["
+.Greyo;;o;;" ;iŒ;[o;;[o;
+;@⁄;iŒ; o;!;"{ ;#0;[o;$;@⁄;["
+Green;iŒ;iŒ;T;	@;%i ;
+[o;&;["background-color;iŒ;	@;%i ;
+[ ;';(;o;)	;"
+Green;iŒ;*"
+Green;	@;+[".Greeno;;o;;" ;iœ;[o;;[o;
+;@Ò;iœ; o;!;"{ ;#0;[o;$;@Ò;["GreenYellow;iœ;iœ;T;	@;%i ;
+[o;&;["background-color;iœ;	@;%i ;
+[ ;';(;o;)	;"GreenYellow;iœ;*"GreenYellow;	@;+[".GreenYellowo;;o;;" ;i–;[o;;[o;
+;@;i–; o;!;"{ ;#0;[o;$;@;["Honeydew;i–;i–;T;	@;%i ;
+[o;&;["background-color;i–;	@;%i ;
+[ ;';(;o;)	;"Honeydew;i–;*"Honeydew;	@;+[".Honeydewo;;o;;" ;i—;[o;;[o;
+;@;i—; o;!;"{ ;#0;[o;$;@;["HotPink;i—;i—;T;	@;%i ;
+[o;&;["background-color;i—;	@;%i ;
+[ ;';(;o;)	;"HotPink;i—;*"HotPink;	@;+[".HotPinko;;o;;" ;i“;[o;;[o;
+;@6;i“; o;!;"{ ;#0;[o;$;@6;["IndianRed;i“;i“;T;	@;%i ;
+[o;&;["background-color;i“;	@;%i ;
+[ ;';(;o;)	;"IndianRed;i“;*"IndianRed;	@;+[".IndianRedo;;o;;" ;i”;[o;;[o;
+;@M;i”; o;!;"{ ;#0;[o;$;@M;["Indigo;i”;i”;T;	@;%i ;
+[o;&;["background-color;i”;	@;%i ;
+[ ;';(;o;)	;"Indigo;i”;*"Indigo;	@;+[".Indigoo;;o;;" ;i‘;[o;;[o;
+;@d;i‘; o;!;"{ ;#0;[o;$;@d;["
+Ivory;i‘;i‘;T;	@;%i ;
+[o;&;["background-color;i‘;	@;%i ;
+[ ;';(;o;)	;"
+Ivory;i‘;*"
+Ivory;	@;+[".Ivoryo;;o;;" ;i’;[o;;[o;
+;@{;i’; o;!;"{ ;#0;[o;$;@{;["
+Khaki;i’;i’;T;	@;%i ;
+[o;&;["background-color;i’;	@;%i ;
+[ ;';(;o;)	;"
+Khaki;i’;*"
+Khaki;	@;+[".Khakio;;o;;" ;i÷;[o;;[o;
+;@í;i÷; o;!;"{ ;#0;[o;$;@í;["Lavender;i÷;i÷;T;	@;%i ;
+[o;&;["background-color;i÷;	@;%i ;
+[ ;';(;o;)	;"Lavender;i÷;*"Lavender;	@;+[".Lavendero;;o;;" ;i◊;[o;;[o;
+;@©;i◊; o;!;"{ ;#0;[o;$;@©;["LavenderBlush;i◊;i◊;T;	@;%i ;
+[o;&;["background-color;i◊;	@;%i ;
+[ ;';(;o;)	;"LavenderBlush;i◊;*"LavenderBlush;	@;+[".LavenderBlusho;;o;;" ;iÿ;[o;;[o;
+;@¿;iÿ; o;!;"{ ;#0;[o;$;@¿;["LawnGreen;iÿ;iÿ;T;	@;%i ;
+[o;&;["background-color;iÿ;	@;%i ;
+[ ;';(;o;)	;"LawnGreen;iÿ;*"LawnGreen;	@;+[".LawnGreeno;;o;;" ;iŸ;[o;;[o;
+;@◊;iŸ; o;!;"{ ;#0;[o;$;@◊;["LemonChiffon;iŸ;iŸ;T;	@;%i ;
+[o;&;["background-color;iŸ;	@;%i ;
+[ ;';(;o;)	;"LemonChiffon;iŸ;*"LemonChiffon;	@;+[".LemonChiffono;;o;;" ;i⁄;[o;;[o;
+;@Ó;i⁄; o;!;"{ ;#0;[o;$;@Ó;["LightBlue;i⁄;i⁄;T;	@;%i ;
+[o;&;["background-color;i⁄;	@;%i ;
+[ ;';(;o;)	;"LightBlue;i⁄;*"LightBlue;	@;+[".LightBlueo;;o;;" ;i€;[o;;[o;
+;@	;i€; o;!;"{ ;#0;[o;$;@	;["LightCoral;i€;i€;T;	@;%i ;
+[o;&;["background-color;i€;	@;%i ;
+[ ;';(;o;)	;"LightCoral;i€;*"LightCoral;	@;+[".LightCoralo;;o;;" ;i‹;[o;;[o;
+;@	;i‹; o;!;"{ ;#0;[o;$;@	;["LightCyan;i‹;i‹;T;	@;%i ;
+[o;&;["background-color;i‹;	@;%i ;
+[ ;';(;o;)	;"LightCyan;i‹;*"LightCyan;	@;+[".LightCyano;;o;;" ;i›;[o;;[o;
+;@3	;i›; o;!;"{ ;#0;[o;$;@3	;["LightGoldenrodYellow;i›;i›;T;	@;%i ;
+[o;&;["background-color;i›;	@;%i ;
+[ ;';(;o;)	;"LightGoldenrodYellow;i›;*"LightGoldenrodYellow;	@;+[".LightGoldenrodYellowo;;o;;" ;iﬁ;[o;;[o;
+;@J	;iﬁ; o;!;"{ ;#0;[o;$;@J	;["LightGreen;iﬁ;iﬁ;T;	@;%i ;
+[o;&;["background-color;iﬁ;	@;%i ;
+[ ;';(;o;)	;"LightGreen;iﬁ;*"LightGreen;	@;+[".LightGreeno;;o;;" ;iﬂ;[o;;[o;
+;@a	;iﬂ; o;!;"{ ;#0;[o;$;@a	;["LightGray;iﬂ;iﬂ;T;	@;%i ;
+[o;&;["background-color;iﬂ;	@;%i ;
+[ ;';(;o;)	;"LightGray;iﬂ;*"LightGray;	@;+[".LightGrayo;;o;;" ;i‡;[o;;[o;
+;@x	;i‡; o;!;"{ ;#0;[o;$;@x	;["LightGrey;i‡;i‡;T;	@;%i ;
+[o;&;["background-color;i‡;	@;%i ;
+[ ;';(;o;)	;"LightGrey;i‡;*"LightGrey;	@;+[".LightGreyo;;o;;" ;i·;[o;;[o;
+;@è	;i·; o;!;"{ ;#0;[o;$;@è	;["LightPink;i·;i·;T;	@;%i ;
+[o;&;["background-color;i·;	@;%i ;
+[ ;';(;o;)	;"LightPink;i·;*"LightPink;	@;+[".LightPinko;;o;;" ;i‚;[o;;[o;
+;@¶	;i‚; o;!;"{ ;#0;[o;$;@¶	;["LightSalmon;i‚;i‚;T;	@;%i ;
+[o;&;["background-color;i‚;	@;%i ;
+[ ;';(;o;)	;"LightSalmon;i‚;*"LightSalmon;	@;+[".LightSalmono;;o;;" ;i„;[o;;[o;
+;@Ω	;i„; o;!;"{ ;#0;[o;$;@Ω	;["LightSeaGreen;i„;i„;T;	@;%i ;
+[o;&;["background-color;i„;	@;%i ;
+[ ;';(;o;)	;"LightSeaGreen;i„;*"LightSeaGreen;	@;+[".LightSeaGreeno;;o;;" ;i‰;[o;;[o;
+;@‘	;i‰; o;!;"{ ;#0;[o;$;@‘	;["LightSkyBlue;i‰;i‰;T;	@;%i ;
+[o;&;["background-color;i‰;	@;%i ;
+[ ;';(;o;)	;"LightSkyBlue;i‰;*"LightSkyBlue;	@;+[".LightSkyBlueo;;o;;" ;iÂ;[o;;[o;
+;@Î	;iÂ; o;!;"{ ;#0;[o;$;@Î	;["LightSlateGray;iÂ;iÂ;T;	@;%i ;
+[o;&;["background-color;iÂ;	@;%i ;
+[ ;';(;o;)	;"LightSlateGray;iÂ;*"LightSlateGray;	@;+[".LightSlateGrayo;;o;;" ;iÊ;[o;;[o;
+;@
+;iÊ; o;!;"{ ;#0;[o;$;@
+;["LightSlateGrey;iÊ;iÊ;T;	@;%i ;
+[o;&;["background-color;iÊ;	@;%i ;
+[ ;';(;o;)	;"LightSlateGrey;iÊ;*"LightSlateGrey;	@;+[".LightSlateGreyo;;o;;" ;iÁ;[o;;[o;
+;@
+;iÁ; o;!;"{ ;#0;[o;$;@
+;["LightSteelBlue;iÁ;iÁ;T;	@;%i ;
+[o;&;["background-color;iÁ;	@;%i ;
+[ ;';(;o;)	;"LightSteelBlue;iÁ;*"LightSteelBlue;	@;+[".LightSteelBlueo;;o;;" ;iË;[o;;[o;
+;@0
+;iË; o;!;"{ ;#0;[o;$;@0
+;["LightYellow;iË;iË;T;	@;%i ;
+[o;&;["background-color;iË;	@;%i ;
+[ ;';(;o;)	;"LightYellow;iË;*"LightYellow;	@;+[".LightYellowo;;o;;" ;iÈ;[o;;[o;
+;@G
+;iÈ; o;!;"{ ;#0;[o;$;@G
+;["	Lime;iÈ;iÈ;T;	@;%i ;
+[o;&;["background-color;iÈ;	@;%i ;
+[ ;';(;o;)	;"	Lime;iÈ;*"	Lime;	@;+["
+.Limeo;;o;;" ;iÍ;[o;;[o;
+;@^
+;iÍ; o;!;"{ ;#0;[o;$;@^
+;["LimeGreen;iÍ;iÍ;T;	@;%i ;
+[o;&;["background-color;iÍ;	@;%i ;
+[ ;';(;o;)	;"LimeGreen;iÍ;*"LimeGreen;	@;+[".LimeGreeno;;o;;" ;iÎ;[o;;[o;
+;@u
+;iÎ; o;!;"{ ;#0;[o;$;@u
+;["
+Linen;iÎ;iÎ;T;	@;%i ;
+[o;&;["background-color;iÎ;	@;%i ;
+[ ;';(;o;)	;"
+Linen;iÎ;*"
+Linen;	@;+[".Lineno;;o;;" ;iÏ;[o;;[o;
+;@å
+;iÏ; o;!;"{ ;#0;[o;$;@å
+;["Magenta;iÏ;iÏ;T;	@;%i ;
+[o;&;["background-color;iÏ;	@;%i ;
+[ ;';(;o;)	;"Magenta;iÏ;*"Magenta;	@;+[".Magentao;;o;;" ;iÌ;[o;;[o;
+;@£
+;iÌ; o;!;"{ ;#0;[o;$;@£
+;["Maroon;iÌ;iÌ;T;	@;%i ;
+[o;&;["background-color;iÌ;	@;%i ;
+[ ;';(;o;)	;"Maroon;iÌ;*"Maroon;	@;+[".Maroono;;o;;" ;iÓ;[o;;[o;
+;@∫
+;iÓ; o;!;"{ ;#0;[o;$;@∫
+;["MediumAquamarine;iÓ;iÓ;T;	@;%i ;
+[o;&;["background-color;iÓ;	@;%i ;
+[ ;';(;o;)	;"MediumAquamarine;iÓ;*"MediumAquamarine;	@;+[".MediumAquamarineo;;o;;" ;iÔ;[o;;[o;
+;@—
+;iÔ; o;!;"{ ;#0;[o;$;@—
+;["MediumBlue;iÔ;iÔ;T;	@;%i ;
+[o;&;["background-color;iÔ;	@;%i ;
+[ ;';(;o;)	;"MediumBlue;iÔ;*"MediumBlue;	@;+[".MediumBlueo;;o;;" ;i;[o;;[o;
+;@Ë
+;i; o;!;"{ ;#0;[o;$;@Ë
+;["MediumOrchid;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"MediumOrchid;i;*"MediumOrchid;	@;+[".MediumOrchido;;o;;" ;iÒ;[o;;[o;
+;@ˇ
+;iÒ; o;!;"{ ;#0;[o;$;@ˇ
+;["MediumPurple;iÒ;iÒ;T;	@;%i ;
+[o;&;["background-color;iÒ;	@;%i ;
+[ ;';(;o;)	;"MediumPurple;iÒ;*"MediumPurple;	@;+[".MediumPurpleo;;o;;" ;iÚ;[o;;[o;
+;@;iÚ; o;!;"{ ;#0;[o;$;@;["MediumSeaGreen;iÚ;iÚ;T;	@;%i ;
+[o;&;["background-color;iÚ;	@;%i ;
+[ ;';(;o;)	;"MediumSeaGreen;iÚ;*"MediumSeaGreen;	@;+[".MediumSeaGreeno;;o;;" ;iÛ;[o;;[o;
+;@-;iÛ; o;!;"{ ;#0;[o;$;@-;["MediumSlateBlue;iÛ;iÛ;T;	@;%i ;
+[o;&;["background-color;iÛ;	@;%i ;
+[ ;';(;o;)	;"MediumSlateBlue;iÛ;*"MediumSlateBlue;	@;+[".MediumSlateBlueo;;o;;" ;iÙ;[o;;[o;
+;@D;iÙ; o;!;"{ ;#0;[o;$;@D;["MediumSpringGreen;iÙ;iÙ;T;	@;%i ;
+[o;&;["background-color;iÙ;	@;%i ;
+[ ;';(;o;)	;"MediumSpringGreen;iÙ;*"MediumSpringGreen;	@;+[".MediumSpringGreeno;;o;;" ;iı;[o;;[o;
+;@[;iı; o;!;"{ ;#0;[o;$;@[;["MediumTurquoise;iı;iı;T;	@;%i ;
+[o;&;["background-color;iı;	@;%i ;
+[ ;';(;o;)	;"MediumTurquoise;iı;*"MediumTurquoise;	@;+[".MediumTurquoiseo;;o;;" ;iˆ;[o;;[o;
+;@r;iˆ; o;!;"{ ;#0;[o;$;@r;["MediumVioletRed;iˆ;iˆ;T;	@;%i ;
+[o;&;["background-color;iˆ;	@;%i ;
+[ ;';(;o;)	;"MediumVioletRed;iˆ;*"MediumVioletRed;	@;+[".MediumVioletRedo;;o;;" ;i˜;[o;;[o;
+;@â;i˜; o;!;"{ ;#0;[o;$;@â;["MidnightBlue;i˜;i˜;T;	@;%i ;
+[o;&;["background-color;i˜;	@;%i ;
+[ ;';(;o;)	;"MidnightBlue;i˜;*"MidnightBlue;	@;+[".MidnightBlueo;;o;;" ;i¯;[o;;[o;
+;@†;i¯; o;!;"{ ;#0;[o;$;@†;["MintCream;i¯;i¯;T;	@;%i ;
+[o;&;["background-color;i¯;	@;%i ;
+[ ;';(;o;)	;"MintCream;i¯;*"MintCream;	@;+[".MintCreamo;;o;;" ;i˘;[o;;[o;
+;@∑;i˘; o;!;"{ ;#0;[o;$;@∑;["MistyRose;i˘;i˘;T;	@;%i ;
+[o;&;["background-color;i˘;	@;%i ;
+[ ;';(;o;)	;"MistyRose;i˘;*"MistyRose;	@;+[".MistyRoseo;;o;;" ;i˙;[o;;[o;
+;@Œ;i˙; o;!;"{ ;#0;[o;$;@Œ;["Moccasin;i˙;i˙;T;	@;%i ;
+[o;&;["background-color;i˙;	@;%i ;
+[ ;';(;o;)	;"Moccasin;i˙;*"Moccasin;	@;+[".Moccasino;;o;;" ;i˚;[o;;[o;
+;@Â;i˚; o;!;"{ ;#0;[o;$;@Â;["NavajoWhite;i˚;i˚;T;	@;%i ;
+[o;&;["background-color;i˚;	@;%i ;
+[ ;';(;o;)	;"NavajoWhite;i˚;*"NavajoWhite;	@;+[".NavajoWhiteo;;o;;" ;i¸;[o;;[o;
+;@¸;i¸; o;!;"{ ;#0;[o;$;@¸;["	Navy;i¸;i¸;T;	@;%i ;
+[o;&;["background-color;i¸;	@;%i ;
+[ ;';(;o;)	;"	Navy;i¸;*"	Navy;	@;+["
+.Navyo;;o;;" ;i˝;[o;;[o;
+;@;i˝; o;!;"{ ;#0;[o;$;@;["OldLace;i˝;i˝;T;	@;%i ;
+[o;&;["background-color;i˝;	@;%i ;
+[ ;';(;o;)	;"OldLace;i˝;*"OldLace;	@;+[".OldLaceo;;o;;" ;i˛;[o;;[o;
+;@*;i˛; o;!;"{ ;#0;[o;$;@*;["
+Olive;i˛;i˛;T;	@;%i ;
+[o;&;["background-color;i˛;	@;%i ;
+[ ;';(;o;)	;"
+Olive;i˛;*"
+Olive;	@;+[".Oliveo;;o;;" ;iˇ;[o;;[o;
+;@A;iˇ; o;!;"{ ;#0;[o;$;@A;["OliveDrab;iˇ;iˇ;T;	@;%i ;
+[o;&;["background-color;iˇ;	@;%i ;
+[ ;';(;o;)	;"OliveDrab;iˇ;*"OliveDrab;	@;+[".OliveDrabo;;o;;" ;i ;[o;;[o;
+;@X;i ; o;!;"{ ;#0;[o;$;@X;["Orange;i ;i ;T;	@;%i ;
+[o;&;["background-color;i ;	@;%i ;
+[ ;';(;o;)	;"Orange;i ;*"Orange;	@;+[".Orangeo;;o;;" ;i;[o;;[o;
+;@o;i; o;!;"{ ;#0;[o;$;@o;["OrangeRed;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"OrangeRed;i;*"OrangeRed;	@;+[".OrangeRedo;;o;;" ;i;[o;;[o;
+;@Ü;i; o;!;"{ ;#0;[o;$;@Ü;["Orchid;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Orchid;i;*"Orchid;	@;+[".Orchido;;o;;" ;i;[o;;[o;
+;@ù;i; o;!;"{ ;#0;[o;$;@ù;["PaleGoldenrod;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"PaleGoldenrod;i;*"PaleGoldenrod;	@;+[".PaleGoldenrodo;;o;;" ;i;[o;;[o;
+;@¥;i; o;!;"{ ;#0;[o;$;@¥;["PaleGreen;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"PaleGreen;i;*"PaleGreen;	@;+[".PaleGreeno;;o;;" ;i;[o;;[o;
+;@À;i; o;!;"{ ;#0;[o;$;@À;["PaleTurquoise;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"PaleTurquoise;i;*"PaleTurquoise;	@;+[".PaleTurquoiseo;;o;;" ;i;[o;;[o;
+;@‚;i; o;!;"{ ;#0;[o;$;@‚;["PaleVioletRed;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"PaleVioletRed;i;*"PaleVioletRed;	@;+[".PaleVioletRedo;;o;;" ;i;[o;;[o;
+;@˘;i; o;!;"{ ;#0;[o;$;@˘;["PapayaWhip;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"PapayaWhip;i;*"PapayaWhip;	@;+[".PapayaWhipo;;o;;" ;i;[o;;[o;
+;@;i; o;!;"{ ;#0;[o;$;@;["PeachPuff;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"PeachPuff;i;*"PeachPuff;	@;+[".PeachPuffo;;o;;" ;i	;[o;;[o;
+;@';i	; o;!;"{ ;#0;[o;$;@';["	Peru;i	;i	;T;	@;%i ;
+[o;&;["background-color;i	;	@;%i ;
+[ ;';(;o;)	;"	Peru;i	;*"	Peru;	@;+["
+.Peruo;;o;;" ;i
+;[o;;[o;
+;@>;i
+; o;!;"{ ;#0;[o;$;@>;["	Pink;i
+;i
+;T;	@;%i ;
+[o;&;["background-color;i
+;	@;%i ;
+[ ;';(;o;)	;"	Pink;i
+;*"	Pink;	@;+["
+.Pinko;;o;;" ;i;[o;;[o;
+;@U;i; o;!;"{ ;#0;[o;$;@U;["	Plum;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"	Plum;i;*"	Plum;	@;+["
+.Plumo;;o;;" ;i;[o;;[o;
+;@l;i; o;!;"{ ;#0;[o;$;@l;["PowderBlue;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"PowderBlue;i;*"PowderBlue;	@;+[".PowderBlueo;;o;;" ;i;[o;;[o;
+;@É;i; o;!;"{ ;#0;[o;$;@É;["Purple;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Purple;i;*"Purple;	@;+[".Purpleo;;o;;" ;i;[o;;[o;
+;@ö;i; o;!;"{ ;#0;[o;$;@ö;["Red;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Red;i;*"Red;	@;+["	.Redo;;o;;" ;i;[o;;[o;
+;@±;i; o;!;"{ ;#0;[o;$;@±;["RosyBrown;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"RosyBrown;i;*"RosyBrown;	@;+[".RosyBrowno;;o;;" ;i;[o;;[o;
+;@»;i; o;!;"{ ;#0;[o;$;@»;["RoyalBlue;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"RoyalBlue;i;*"RoyalBlue;	@;+[".RoyalBlueo;;o;;" ;i;[o;;[o;
+;@ﬂ;i; o;!;"{ ;#0;[o;$;@ﬂ;["SaddleBrown;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SaddleBrown;i;*"SaddleBrown;	@;+[".SaddleBrowno;;o;;" ;i;[o;;[o;
+;@ˆ;i; o;!;"{ ;#0;[o;$;@ˆ;["Salmon;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Salmon;i;*"Salmon;	@;+[".Salmono;;o;;" ;i;[o;;[o;
+;@;i; o;!;"{ ;#0;[o;$;@;["SandyBrown;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SandyBrown;i;*"SandyBrown;	@;+[".SandyBrowno;;o;;" ;i;[o;;[o;
+;@$;i; o;!;"{ ;#0;[o;$;@$;["SeaGreen;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SeaGreen;i;*"SeaGreen;	@;+[".SeaGreeno;;o;;" ;i;[o;;[o;
+;@;;i; o;!;"{ ;#0;[o;$;@;;["Seashell;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Seashell;i;*"Seashell;	@;+[".Seashello;;o;;" ;i;[o;;[o;
+;@R;i; o;!;"{ ;#0;[o;$;@R;["Sienna;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Sienna;i;*"Sienna;	@;+[".Siennao;;o;;" ;i;[o;;[o;
+;@i;i; o;!;"{ ;#0;[o;$;@i;["Silver;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Silver;i;*"Silver;	@;+[".Silvero;;o;;" ;i;[o;;[o;
+;@Ä;i; o;!;"{ ;#0;[o;$;@Ä;["SkyBlue;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SkyBlue;i;*"SkyBlue;	@;+[".SkyBlueo;;o;;" ;i;[o;;[o;
+;@ó;i; o;!;"{ ;#0;[o;$;@ó;["SlateBlue;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SlateBlue;i;*"SlateBlue;	@;+[".SlateBlueo;;o;;" ;i;[o;;[o;
+;@Æ;i; o;!;"{ ;#0;[o;$;@Æ;["SlateGray;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SlateGray;i;*"SlateGray;	@;+[".SlateGrayo;;o;;" ;i;[o;;[o;
+;@≈;i; o;!;"{ ;#0;[o;$;@≈;["SlateGrey;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SlateGrey;i;*"SlateGrey;	@;+[".SlateGreyo;;o;;" ;i;[o;;[o;
+;@‹;i; o;!;"{ ;#0;[o;$;@‹;["	Snow;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"	Snow;i;*"	Snow;	@;+["
+.Snowo;;o;;" ;i;[o;;[o;
+;@Û;i; o;!;"{ ;#0;[o;$;@Û;["SpringGreen;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SpringGreen;i;*"SpringGreen;	@;+[".SpringGreeno;;o;;" ;i;[o;;[o;
+;@
+;i; o;!;"{ ;#0;[o;$;@
+;["SteelBlue;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"SteelBlue;i;*"SteelBlue;	@;+[".SteelBlueo;;o;;" ;i;[o;;[o;
+;@!;i; o;!;"{ ;#0;[o;$;@!;["Tan;i;i;T;	@;%i ;
+[o;&;["background-color;i;	@;%i ;
+[ ;';(;o;)	;"Tan;i;*"Tan;	@;+["	.Tano;;o;;" ;i ;[o;;[o;
+;@8;i ; o;!;"{ ;#0;[o;$;@8;["	Teal;i ;i ;T;	@;%i ;
+[o;&;["background-color;i ;	@;%i ;
+[ ;';(;o;)	;"	Teal;i ;*"	Teal;	@;+["
+.Tealo;;o;;" ;i!;[o;;[o;
+;@O;i!; o;!;"{ ;#0;[o;$;@O;["Thistle;i!;i!;T;	@;%i ;
+[o;&;["background-color;i!;	@;%i ;
+[ ;';(;o;)	;"Thistle;i!;*"Thistle;	@;+[".Thistleo;;o;;" ;i";[o;;[o;
+;@f;i"; o;!;"{ ;#0;[o;$;@f;["Tomato;i";i";T;	@;%i ;
+[o;&;["background-color;i";	@;%i ;
+[ ;';(;o;)	;"Tomato;i";*"Tomato;	@;+[".Tomatoo;;o;;" ;i#;[o;;[o;
+;@};i#; o;!;"{ ;#0;[o;$;@};["Turquoise;i#;i#;T;	@;%i ;
+[o;&;["background-color;i#;	@;%i ;
+[ ;';(;o;)	;"Turquoise;i#;*"Turquoise;	@;+[".Turquoiseo;;o;;" ;i$;[o;;[o;
+;@î;i$; o;!;"{ ;#0;[o;$;@î;["Violet;i$;i$;T;	@;%i ;
+[o;&;["background-color;i$;	@;%i ;
+[ ;';(;o;)	;"Violet;i$;*"Violet;	@;+[".Violeto;;o;;" ;i%;[o;;[o;
+;@´;i%; o;!;"{ ;#0;[o;$;@´;["
+Wheat;i%;i%;T;	@;%i ;
+[o;&;["background-color;i%;	@;%i ;
+[ ;';(;o;)	;"
+Wheat;i%;*"
+Wheat;	@;+[".Wheato;;o;;" ;i&;[o;;[o;
+;@¬;i&; o;!;"{ ;#0;[o;$;@¬;["
+White;i&;i&;T;	@;%i ;
+[o;&;["background-color;i&;	@;%i ;
+[ ;';(;o;)	;"
+White;i&;*"
+White;	@;+[".Whiteo;;o;;" ;i';[o;;[o;
+;@Ÿ;i'; o;!;"{ ;#0;[o;$;@Ÿ;["WhiteSmoke;i';i';T;	@;%i ;
+[o;&;["background-color;i';	@;%i ;
+[ ;';(;o;)	;"WhiteSmoke;i';*"WhiteSmoke;	@;+[".WhiteSmokeo;;o;;" ;i(;[o;;[o;
+;@;i(; o;!;"{ ;#0;[o;$;@;["Yellow;i(;i(;T;	@;%i ;
+[o;&;["background-color;i(;	@;%i ;
+[ ;';(;o;)	;"Yellow;i(;*"Yellow;	@;+[".Yellowo;;o;;" ;i);[o;;[o;
+;@;i); o;!;"{ ;#0;[o;$;@;["YellowGreen;i);i);T;	@;%i ;
+[o;&;["background-color;i);	@;%i ;
+[ ;';(;o;)	;"YellowGreen;i);*"YellowGreen;	@;+[".YellowGreen

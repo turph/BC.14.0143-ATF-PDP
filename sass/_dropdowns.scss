@@ -1,0 +1,89 @@
+.bb_dropdown, .bb_dropdownMenu{
+	li{
+		.dd_optionTitle{margin:0 0 0 6px;line-height:20px;display:inline-block;vertical-align:middle;}
+		.uniSize{display:block;}
+		.uniPrice, .uniPriceSale, .uniPriceOutlet{float:right;margin:20px 20px 0 0;}
+		.uniPrice{color:$black;}
+		.uniPriceSale{color:$orange;}
+		.uniPriceOutlet{color:$red;}
+		&:first-child{
+			margin:0;padding:5px 22px 2px 5px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			-ms-border-radius: 3px;
+			border-radius: 3px;
+			background-color:$gray-lightest;
+			border:1px solid $gray-light;
+			color:$gray;
+			position:relative;
+			&:before{
+				height:12px;width:12px;top:40%;right:10px;
+				content:" ";
+				background:url('http://www.backcountry.com/images/bcs/icon-12-s66c4b85537.png') no-repeat 0 -12px;
+				position:absolute;
+				cursor:pointer;
+			}
+			&:after{
+				background:$gray-light;
+				content:"";
+				height:100%;
+				position:absolute;
+				right:31px;
+				top:0;
+				width:1px;
+			}
+			&:hover{text-decoration:none;}
+			&:focus{outline:0;}
+		}
+		a{display:block;color:$gray;text-decoration:none;line-height:27px}
+	}
+}
+.bb_dropdown{
+	ul{}
+	li{
+		&:nth-child(n+2){display:none;}
+	}
+}
+.bb_dropdownMenu{
+	ul{}
+	li{
+		&:nth-child(n+2){
+			margin:0;padding:0 10px;
+			-webkit-border-radius-top-right:0;
+			-moz-border-radius-top-right:0;
+			-ms-border-radius-top-right:0;
+			border-radius-top-right:0;
+			border-radius-top-left:0;
+			background-color:$white;
+			border-left:1px solid $gray-light;
+			border-right:1px solid $gray-light;
+			&:last-child{
+				border-bottom:1px solid $gray-light;
+				-webkit-border-bottom-left-radius:3px;
+				-webkit-border-bottom-right-radius:3px;
+				-moz-border-bottom-left-radius:3px;
+				-moz-border-bottom-right-radius:3px;
+				-ms-border-bottom-left-radius:3px;
+				-ms-border-bottom-right-radius:3px;
+				border-bottom-right-radius:3px;
+				border-bottom-left-radius:3px;
+				a{border:none;}
+			}
+			a{padding:6px 5px;display:block;color:$gray;text-decoration:none;border-bottom:1px solid $gray-lightest;}
+		}
+		&:hover{background-color:$gray-dim;}
+	}
+}
+
+.bb_label{margin:10px 0 0 0;font-weight:bold;font-size:16px;display:block;}
+.bb_ddIcon{
+	width:32px;height:24px;display:inline-block;text-align:center;background-color:$white;border:1px solid $gray-light;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	vertical-align:baseline;
+}
+.bb_ddThumb{
+	img{width:45px;height:45px;border:1px solid $gray-light;vertical-align:middle;}
+}

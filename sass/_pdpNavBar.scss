@@ -1,25 +1,90 @@
 .pt_pdpNav{
-	margin:0 0 30px 0;width:100%;
+	margin:0 0 18px 0;width:100%;
 	border-bottom:1px solid $gray-lighter;
-	.pt_pdpNavLogo{
-		margin:0 0 7px 0;float:left;height:50px;overflow:hidden;
+	.pt_brandCrumb{
+		.pt_pdpNavLogo{
+			margin:0 10px 7px 0;float:left;height:50px;overflow:hidden;
+		}
+		.pt_pdpCrumb{
+			float:left;font-size:17px;margin:10px 0 0 0;
+			a{
+				margin:0 4px;color:$blue;
+				&:last-child{margin-top:4px;color:$black;font-weight:bold;display:block;}
+				&:hover{text-decoration:none;}
+			}
+		}
 	}
 	.pt_pdpNavOptions{
 		margin:26px 0 0 0;float:right;font-size:17px;
 		a{
-		margin:0 7px;padding:0 10px 12px 10px;display:inline;color:$gray;
-		&:hover{color:$black;text-decoration:none;border-bottom:3px solid $black;}
-		&:last-child{margin-right:0;}
+			margin:0 7px;padding:0 10px 12px 10px;display:inline;color:$gray;
+			&:hover{color:$black;text-decoration:none;border-bottom:3px solid $black;}
+			&:last-child{margin-right:0;}
 		}
 	}
 	a.pt_buyNow{color:$orange;border-bottom:3px solid $orange;}
+	a.pt_navHere{color:$black;text-decoration:none;border-bottom:3px solid $black;}
+}
+.pt_brandCrumbDetail{
+	margin:3px 0 0 0;width:100%;border-top:1px solid $gray-lighter;
+	.closeDialog{
+		float:right;padding:4px 8px;background-color:$black;
+		a{
+			color:$white;font-weight:bold;
+			&:hover{text-decoration:none;}
+		}
+	}
+	.bc_links{
+		margin:15px;width:30%;float:left;
+		.bc_linkSpace{margin-top:6px;}
+		a{
+			color:$blue;display:block;line-height:24px;text-transform:capitalize;
+			&:first-child{color:$black;font-weight:bold;display:block;text-transform:uppercase;}
+		}
+	}
 }
 
 
-/* iPhone loyout */
+/* iPhone layout */
 @include respond-to(handhelds){
-	.pt_pdpNavOptions{
-		margin:26px 0 0 0;float:right;font-size:16px;
-		a{margin:0 4px;padding:0 6px 12px 6px;}
+	.pt_pdpNav{
+		width:320px;
+		.pt_pdpNavOptions{
+			margin:26px 0 0 0;float:right;font-size:16px;
+			a{margin:0 3px;padding:0 3px 12px 3px;}
+		}
+		.pt_brandCrumb{
+			.pt_pdpNavLogo{
+				margin:0 10px 7px 0;float:left;height:30px;overflow:hidden;
+				img{height:30px;}
+			}
+			.pt_pdpCrumb{
+				float:left;font-size:17px;margin:0;
+				a{
+					margin:0 4px;color:$blue;
+					&:last-child{margin-top:1px;color:$black;font-weight:bold;display:block;}
+					&:nth-child(-n+1){display:none;}
+				}
+			}
+		}
+		.pt_pdpNavOptions{display:none;}
+	}
+	.pt_brandCrumbDetail{
+		margin:3px 0 0 0;width:100%;border-top:1px solid $gray-lighter;font-size:17px;
+		.closeDialog{
+			float:right;margin-right:15px;padding:4px 8px;background-color:$black;
+			a{
+				color:$white;font-weight:bold;
+			}
+		}
+		.bc_links{
+			margin:5px;width:100%;
+			.bc_linkSpace{margin-top:6px;}
+			a{
+				color:$blue;display:block;line-height:24px;text-transform:capitalize;
+				&:first-child{color:$black;font-weight:bold;display:block;text-transform:uppercase;}
+			}
+		}
+		div:nth-child(3){display:none;}
 	}
 }
